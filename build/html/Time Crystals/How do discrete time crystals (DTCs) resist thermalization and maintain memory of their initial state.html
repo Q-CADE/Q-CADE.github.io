@@ -1,0 +1,362 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="How do you do metrology with DTCs ?" href="How%20do%20you%20do%20metrology%20with%20DTCs.html" /><link rel="prev" title="Quantum Computation, Applications &amp; Dynamical Entanglement" href="../index.html" />
+        <link rel="prefetch" href="../_static/Q-CADE_logo-light.png" as="image" />
+        <link rel="prefetch" href="../_static/Q-CADE_logo-dark.png" as="image" />
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.07.19 -->
+        <title>How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ? - Q-CADE Lab</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=25af2a20" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #2b2b2b;
+  --color-code-foreground: #f8f8f2;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #2b2b2b;
+  --color-code-foreground: #f8f8f2;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Q-CADE Lab</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../_static/Q-CADE_logo-light.png" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../_static/Q-CADE_logo-dark.png" alt="Dark Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">Q-CADE Lab</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Time Crystals:</span></p>
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="How%20do%20you%20do%20metrology%20with%20DTCs.html">How do you do metrology with DTCs ?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Floquet Engineering:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Floquet%20Engineering/Floquet%20engineering%20of%20Discrete%20Time%20crystals.html">Floquet Engineering of Nonequilibrium Phases: A Study of Discrete Time Crystals</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/Time Crystals/How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section class="tex2jax_ignore mathjax_ignore" id="how-do-discrete-time-crystals-dtcs-resist-thermalization-and-maintain-memory-of-their-initial-state">
+<h1>How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?<a class="headerlink" href="#how-do-discrete-time-crystals-dtcs-resist-thermalization-and-maintain-memory-of-their-initial-state" title="Link to this heading">¶</a></h1>
+<p>Discrete time crystals (DTCs) are fascinating non-equilibrium phases of matter that exhibit <strong>spontaneous breaking of discrete time-translation symmetry</strong>. This means that while they are periodically driven by an external force with period <code class="docutils literal notranslate"><span class="pre">T</span></code>, their local observables respond with a period that is a multiple of the drive period, such as <code class="docutils literal notranslate"><span class="pre">2T</span></code> or <code class="docutils literal notranslate"><span class="pre">nT</span></code> (a subharmonic response).</p>
+<p>The central challenge for any periodically driven quantum system is <strong>thermalization</strong>, where continuous energy absorption from the drive would typically lead the system to an infinite-temperature, featureless state, causing it to lose all memory of its initial configuration. DTCs, however, are <em>not ergodic</em> and <strong>“remember” their initial state</strong> at late times, violating the eigenstate thermalization hypothesis. This resistance to thermalization and memory retention are enabled by several key mechanisms:</p>
+<ul class="simple">
+<li><p><strong>Many-Body Localization (MBL)</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: MBL is characterized by strong disorder that leads to an emergent integrability, preventing the system from heating to thermal equilibrium and causing it to <strong>retain memory of its initial state indefinitely</strong>. In MBL-stabilized DTCs, the time-crystalline order is <strong>present across the full eigenspectrum</strong>, meaning it is robust for generic initial states.</p></li>
+<li><p><strong>Characteristics</strong>: MBL-DTCs are predicted to persist for arbitrarily long times in an ideal isolated system, although experimental implementations will inevitably experience decay due to finite-size effects or environmental decoherence. This mechanism is often observed in low-dimensional systems with sufficiently short-range interactions. Examples include trapped ions and superconducting qubits.</p></li>
+</ul>
+</li>
+<li><p><strong>Floquet Prethermalization</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: This occurs when a system is driven at very <strong>high frequencies</strong> compared to its local energy scales. The system experiences <strong>exponentially slow heating</strong>, entering a <strong>long-lived quasi-steady (prethermal) state</strong>.</p></li>
+<li><p><strong>Characteristics</strong>: While the lifetime is not infinite, it can be <strong>exponentially long</strong> in the ratio of the driving frequency to the interaction energy scale (<code class="docutils literal notranslate"><span class="pre">τ</span> <span class="pre">~</span> <span class="pre">e^(ωD/J)</span></code>). The existence of a prethermal DTC often depends on the <strong>energy density of the initial state</strong>; it arises if the prethermal state spontaneously breaks an emergent symmetry of the effective Hamiltonian. This type of DTC can exist in higher dimensions or with long-range interactions where MBL might not. Experiments have observed prethermal DTCs in systems like nuclear spins in diamond and trapped ions.</p></li>
+</ul>
+</li>
+<li><p><strong>Dissipative Stabilization / Open Systems</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: Although often associated with noise that destroys order, controlled dissipation and fluctuations (e.g., coupling to a cold bath) can surprisingly <strong>stabilize time crystal dynamics</strong>. For instance, by allowing photons to escape a leaky cavity, excess energy can be extracted, stabilizing the time-crystalline behavior.</p></li>
+<li><p><strong>Characteristics</strong>: In some theoretical models, like the open Dicke model, mean-field solvability can lead to infinitely persistent DTCs. However, real-world experiments on dissipative DTCs often have finite lifetimes due to short-range interactions or atom losses. Rigorous results suggest that ergodicity breaking can be generically stable to noise, and “activated” time crystals can have an exponentially long autocorrelation time at low temperatures.</p></li>
+</ul>
+</li>
+<li><p><strong>Domain-Wall Confinement</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: In clean (disorder-free) spin chains, the confinement of domain walls into “mesonic” bound states can prevent their spreading, thus hindering thermalization. This mechanism can lead to an <strong>extremely long-lived DTC response</strong>, distinct from Floquet prethermalization or MBL.</p></li>
+<li><p><strong>Characteristics</strong>: This approach doesn’t require high driving frequencies or slowly decaying interactions. The lifetime can be exponentially enhanced with increasing interaction range.</p></li>
+</ul>
+</li>
+<li><p><strong>Floquet Dynamical Symmetry (FDS)</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: FDS is an unconventional symmetry in time-periodically driven systems that <strong>protects quantum coherence</strong> between specific symmetry sectors from dissipation and dephasing. This leads to the emergence of DTCs and discrete time quasicrystals (DTQCs).</p></li>
+<li><p><strong>Characteristics</strong>: These time crystals arise solely from FDS and are robust even in dissipative or isolated systems, and in the presence of disorder, as long as the FDS is respected.</p></li>
+</ul>
+</li>
+<li><p><strong>Topological Protection</strong>:</p>
+<ul>
+<li><p><strong>Mechanism</strong>: Some Floquet time crystals, particularly “topological Floquet time crystals,” are stabilized by topological properties like nontrivial gap opening in the quasienergy spectrum.</p></li>
+<li><p><strong>Characteristics</strong>: This mechanism <strong>does not require many-body interactions or disorder</strong> for rigidity and robustness against perturbations.</p></li>
+</ul>
+</li>
+<li><p><strong>Quantum Many-Body Scars</strong>: This is another mechanism for preventing thermalization and inducing time-crystalline behavior, leading to long-lived responses.</p></li>
+</ul>
+<p>In essence, DTCs resist thermalization and retain memory by leveraging quantum phenomena that either strictly prevent energy absorption and randomization (like MBL) or significantly slow down these processes to create long-lived metastable states (like Floquet prethermalization, dissipative stabilization, or domain-wall confinement). They “remember” their initial state because their dynamics are locked into a subharmonic rhythm that preserves aspects of the starting configuration, unlike a thermalized system that loses all such information.</p>
+<p><strong>Analogy:</strong> Imagine a complex musical instrument, like a grand piano. If you hit a key (initial state), the sound eventually fades away (thermalization). A periodically driven system is like continually tapping the keys in a regular rhythm. Without protective mechanisms, the whole piano would eventually just vibrate chaotically, losing any distinct melody.</p>
+<ul class="simple">
+<li><p><strong>MBL-DTCs</strong> are like a magically constructed piano where certain strings, even when repeatedly tapped, vibrate in a perfect, robust subharmonic rhythm <em>forever</em>, unperturbed by the chaotic vibrations of other parts. They “remember” the initial tap perfectly.</p></li>
+<li><p><strong>Floquet Prethermal DTCs</strong> are like a piano whose strings are super-responsive only to very fast, precise taps. They can maintain a beautiful subharmonic melody for a very, very long time, but eventually, if you tap for too long, the energy from the taps slowly accumulates, and the clear melody will eventually fade. They “remember” for an exponentially long, but finite, time.</p></li>
+<li><p><strong>Dissipative DTCs</strong> are like a piano that is simultaneously being played and having its sound absorbed by a special dampening system. This absorption can precisely counteract the input energy, allowing a clear, sustained subharmonic rhythm to emerge, even for very long durations, as the excess energy is cleanly removed.</p></li>
+<li><p><strong>Domain-Wall Confinement DTCs</strong> are like a piano where individual notes are “stuck” together in small, stable clusters. Even if the whole piano is driven, the sound doesn’t spread freely, and these clusters maintain their distinct, long-lasting subharmonic patterns.</p></li>
+</ul>
+<p>Each mechanism provides a different way to keep the “melody” of the initial state from dissolving into the “noise” of thermal chaos.</p>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="How%20do%20you%20do%20metrology%20with%20DTCs.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">How do you do metrology with DTCs ?</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, O. Baris Malcioglu
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

@@ -15,6 +15,7 @@ author = 'O. Baris Malcioglu'
 
 extensions = [
         'myst_parser',
+        'sphinx.ext.githubpages',
         ]
 
 templates_path = ['_templates']
