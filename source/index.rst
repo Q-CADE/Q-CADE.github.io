@@ -7,6 +7,23 @@ At the heart of our work is **Quantum Computation**, where we use quantum princi
 
 **Dynamical Entanglement** describes how the quantum correlations between particles evolve, spread, and rearrange themselves over time. The study of dynamical entanglement is the study of how these informational correlations form, break, and change strength as a system evolves. Controlling this dynamic web is the key to routing information in a quantum computer, allowing it to perform reliable calculations, and it's fundamental to understanding how energy and information are transported in quantum materials. 
 
+.. mdinclude:: announcements.md
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   contact
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: People:
+   :glob:
+
+   people/*
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Time Crystals:
@@ -22,4 +39,12 @@ At the heart of our work is **Quantum Computation**, where we use quantum princi
    :glob:
 
    Floquet Engineering/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Work:
+   :glob:
+
+   work/*
+
 
