@@ -57,27 +57,6 @@ $$ \hat{H}_F^{(1)} = \frac{1}{2T\hbar}\sum_{n=1}^{\infty}\frac{1}{n\omega}\left(
 
 where $\hat{H}_n$ are the Fourier components of $\hat{H}(t)$. This expansion is the primary analytical tool for **Floquet engineering**, the practice of designing a driving protocol $\hat{H}(t)$ to realize a specific effective Hamiltonian $\hat{H}_F$ that may possess desirable properties not found in static analogues.[[1]](https://doi.org/10.1080/00018732.2015.1055918) [[2]](https://doi.org/10.1103/PhysRevX.4.031027) [[14]](https://doi.org/10.1103/PhysRevX.4.031027) It is important to note that the convergence of the FM series is not guaranteed and is known to break down when the drive frequency becomes resonant with the system's energy level spacings.[[8]](https://doi.org/10.1103/RevModPhys.89.011004)
 
-### 1.5 Calculation Questions & Solutions
-
-**Problem 1:** For a driven two-level system with Hamiltonian $\hat{H}(t) = \frac{\hbar\omega_0}{2}\hat{\sigma}_z + \hbar\Omega(\hat{\sigma}_x \cos(\omega t) + \hat{\sigma}_y \sin(\omega t))$, transform to a frame rotating with the drive frequency $\omega$. Find the time-independent Hamiltonian in this frame, which is the exact $\hat{H}_F$, and determine its eigenvalues (the quasi-energies).
-
-**Solution 1:** The transformation to the rotating frame is implemented by the unitary operator $\hat{U}_R(t) = e^{-i\omega t \hat{\sigma}_z/2}$. The transformed Hamiltonian $\hat{H}'$ is given by $\hat{H}' = \hat{U}_R^\dagger(t)\hat{H}(t)\hat{U}_R(t) - i\hbar\hat{U}_R^\dagger(t)\frac{d\hat{U}_R(t)}{dt}$.
-The first term is:
-$$ \hat{U}_R^\dagger(t)\hat{H}(t)\hat{U}_R(t) = \frac{\hbar\omega_0}{2}\hat{\sigma}_z + \hbar\Omega(\hat{\sigma}_x \cos(\omega t) + \hat{\sigma}_y \sin(\omega t))\hat{U}_R(t) $$
-Using $e^{i\theta\hat{\sigma}_z/2}\hat{\sigma}_x e^{-i\theta\hat{\sigma}_z/2} = \hat{\sigma}_x\cos\theta - \hat{\sigma}_y\sin\theta$ and $e^{i\theta\hat{\sigma}_z/2}\hat{\sigma}_y e^{-i\theta\hat{\sigma}_z/2} = \hat{\sigma}_y\cos\theta + \hat{\sigma}_x\sin\theta$ with $\theta = -\omega t$, we find that the term in parentheses becomes $\hbar\Omega\hat{\sigma}_x$.
-The second term is:
-$$ -i\hbar\hat{U}_R^\dagger(t)\frac{d\hat{U}_R(t)}{dt} = -i\hbar(e^{i\omega t \hat{\sigma}_z/2})(-i\omega/2)\hat{\sigma}_z(e^{-i\omega t \hat{\sigma}_z/2}) = -\frac{\hbar\omega}{2}\hat{\sigma}_z $$Combining these gives the time-independent Hamiltonian in the rotating frame:$$ \hat{H}' = \hat{H}_F = \frac{\hbar}{2}(\omega_0 - \omega)\hat{\sigma}_z + \hbar\Omega\hat{\sigma}_x $$This is the exact Floquet Hamiltonian for this system.[[5]](https://doi.org/10.1016/S0370-1573(98)00022-2) [[7]](https://doi.org/10.1103/PhysRevA.7.2203) Its eigenvalues are the quasi-energies:$$ \epsilon_{\pm} = \pm \frac{\hbar}{2}\sqrt{(\omega_0-\omega)^2 + (2\Omega)^2} $$
-
-**Problem 2:** Consider a Hamiltonian given by a sequence of pulses: $\hat{H}(t) = J\hat{\sigma}_x$ for $0 \le t < T/2$ and $\hat{H}(t) = J\hat{\sigma}_z$ for $T/2 \le t < T$. Calculate the Floquet operator $\hat{U}_F = \hat{U}(T,0)$ and find its eigenvalues.
-
-**Solution 2:** The Floquet operator is the product of the evolution operators for each part of the cycle:
-$$ \hat{U}_F = \hat{U}_{z}(T/2)\hat{U}_{x}(T/2) = e^{-iJ(T/2)\hat{\sigma}_z/\hbar} e^{-iJ(T/2)\hat{\sigma}_x/\hbar} $$Let $\theta = JT/(2\hbar)$. The matrix representations of the operators are:$$ e^{-i\theta\hat{\sigma}_z} = \begin{pmatrix} e^{-i\theta} & 0 \\ 0 & e^{i\theta} \end{pmatrix}, \quad e^{-i\theta\hat{\sigma}_x} = \cos(\theta)\mathbb{I} - i\sin(\theta)\hat{\sigma}_x = \begin{pmatrix} \cos\theta & -i\sin\theta \\ -i\sin\theta & \cos\theta \end{pmatrix} $$Multiplying these matrices gives:$$ \hat{U}_F = \begin{pmatrix} e^{-i\theta}\cos\theta & -ie^{-i\theta}\sin\theta \\ -ie^{i\theta}\sin\theta & e^{i\theta}\cos\theta \end{pmatrix} $$
-The eigenvalues $\lambda_{\pm}$ are found by solving the characteristic equation $\det(\hat{U}_F - \lambda\mathbb{I}) = 0$.
-$$\lambda^2 - \text{Tr}(\hat{U}_F)\lambda + \det(\hat{U}_F) = 0$$
-Since $\hat{U}_F$ is unitary, $\det(\hat{U}_F) = 1$. The trace is $\text{Tr}(\hat{U}_F) = 2\cos^2\theta$. The eigenvalues are:
-$$\lambda_{\pm} = \cos^2\theta \pm \sqrt{\cos^4\theta - 1} = \cos^2\theta \pm i\sqrt{1-\cos^4\theta}$$
-The quasi-energies are then given by $\epsilon_{\pm} = \frac{i\hbar}{T}\ln(\lambda_{\pm})$.
-
 ## Chapter 2: The Emergence of Discrete Time Crystals
 
 Having established the framework of Floquet theory, this chapter delves into a remarkable non-equilibrium phase of matter that it enables: the discrete time crystal (DTC). The concept of a time crystal represents a profound extension of the principles of spontaneous symmetry breaking from the spatial domain to the temporal domain. We will trace the conceptual evolution from initial proposals for time crystals in equilibrium systems, which were ultimately forbidden by fundamental principles, to their successful realization in the intrinsically non-equilibrium setting of periodically driven systems.
@@ -122,21 +101,6 @@ The canonical model used to realize and study a period-doubling DTC is a one-dim
     $$ \hat{U}_2 = \exp\left(-\frac{i\tau}{\hbar} \hat{H}_{\text{Ising}}\right), \quad \text{where} \quad \hat{H}_{\text{Ising}} = \sum_{\langle i,j \rangle} J_{ij} \hat{\sigma}_i^z \hat{\sigma}_j^z + \sum_i h_i \hat{\sigma}_i^z $$
     Here, the interaction strengths $J_{ij}$ and/or the local magnetic fields $h_i$ are drawn from a random distribution, providing the quenched disorder. As will be detailed in the next chapter, both the pulse imperfection $\epsilon$ and the disorder are essential ingredients for stabilizing the DTC phase.
 
-### 2.6 Calculation Questions & Solutions
-
-**Problem 1:** Consider an ideal, non-interacting DTC drive with a perfect $\pi$-pulse ($\epsilon=0$) and a uniform field ($J_{ij}=0$, $h_i=h$). The Floquet operator is $\hat{U}_F = \exp(-ih\tau/\hbar \sum_i \hat{\sigma}_i^z) \exp(-i(\pi/2)\sum_i \hat{\sigma}_i^x)$. Show that while $\hat{U}_F^2 \neq \mathbb{I}$, an initial state polarized along the z-axis, $|\Psi(0)\rangle = |\uparrow\uparrow\dots\uparrow\rangle$, exhibits period-doubling oscillations in the local magnetization $\langle \hat{\sigma}_k^z(t) \rangle$.
-
-**Solution 1:** The operator $\hat{U}_x = \exp(-i(\pi/2)\sum_i \hat{\sigma}_i^x)$ flips all spins, e.g., $\hat{U}_x |\uparrow\rangle_k = |\downarrow\rangle_k$. The operator $\hat{U}_z = \exp(-ih\tau/\hbar \sum_i \hat{\sigma}_i^z)$ applies a phase.
-After one period, $|\Psi(T)\rangle = \hat{U}_z \hat{U}_x |\Psi(0)\rangle = \hat{U}_z |\downarrow\downarrow\dots\downarrow\rangle = e^{iN h\tau/\hbar}|\downarrow\downarrow\dots\downarrow\rangle$.
-After two periods, $|\Psi(2T)\rangle = \hat{U}_F |\Psi(T)\rangle = e^{iN h\tau/\hbar} \hat{U}_z \hat{U}_x |\downarrow\downarrow\dots\downarrow\rangle = e^{iN h\tau/\hbar} \hat{U}_z |\uparrow\uparrow\dots\uparrow\rangle = e^{iN h\tau/\hbar} e^{-iN h\tau/\hbar} |\uparrow\uparrow\dots\uparrow\rangle = |\Psi(0)\rangle$.
-The state returns after two periods. Let's check the magnetization.
-$\langle \hat{\sigma}_k^z(T) \rangle = \langle \Psi(T)|\hat{\sigma}_k^z|\Psi(T) \rangle = \langle \downarrow\dots|\hat{\sigma}_k^z|\downarrow\dots \rangle = -1$.
-$\langle \hat{\sigma}_k^z(2T) \rangle = \langle \Psi(2T)|\hat{\sigma}_k^z|\Psi(2T) \rangle = \langle \uparrow\dots|\hat{\sigma}_k^z|\uparrow\dots \rangle = +1$.
-The magnetization oscillates between -1 and +1 with period $2T$. Note that $\hat{U}_F^2 \neq \mathbb{I}$ because $\hat{U}_x$ and $\hat{U}_z$ do not commute. For example, $\hat{U}_F^2 |\rightarrow\dots\rightarrow\rangle \neq |\rightarrow\dots\rightarrow\rangle$.
-
-**Problem 2:** Explain why, in the absence of interactions ($J_{ij}=0$), the subharmonic response of the driven disordered Ising model is not robust and does not constitute a true DTC phase.
-
-**Solution 2:** In the absence of interactions, the spins are decoupled and each evolves independently under its local Hamiltonian. The evolution of spin $i$ is governed by the local Floquet operator $\hat{U}_{F,i} = \exp(-ih_i\tau/\hbar \hat{\sigma}_i^z) \exp(-i(\pi/2)(1-\epsilon)\hat{\sigma}_i^x)$. The response frequency of each spin depends on its local field $h_i$ and the pulse imperfection $\epsilon$. If $\epsilon$ is changed, the response frequency of every spin will shift. There is no collective mechanism to lock the oscillation period to exactly $2T$ across the entire system. This lack of rigidity against perturbations means the system does not form a stable thermodynamic phase; it is merely a collection of independent two-level systems, each exhibiting a resonance whose frequency is fine-tuned by the drive parameters.[[23]](https://doi.org/10.1038/nature21413)
 
 ## Chapter 3: Stabilizing Time Crystalline Order in Closed Systems
 
@@ -183,20 +147,6 @@ The following table provides a comparative summary of the two primary stabilizat
 
 **Table 3.1:** Comparison of primary stabilization mechanisms for Discrete Time Crystals in closed quantum systems.
 
-### 3.6 Calculation Questions & Solutions
-
-**Problem 1:** Consider a two-site interacting system with disorder: $\hat{H} = J\hat{\sigma}_1^z \hat{\sigma}_2^z + h_1 \hat{\sigma}_1^z + h_2 \hat{\sigma}_2^z$. Show that the eigenstates are product states in the z-basis and are therefore localized. Explain why adding a transverse field $g(\hat{\sigma}_1^x + \hat{\sigma}_2^x)$ can lead to delocalization.
-
-**Solution 1:** The Hamiltonian without the transverse field is diagonal in the computational basis $\{|\uparrow\uparrow\rangle, |\uparrow\downarrow\rangle, |\downarrow\uparrow\rangle, |\downarrow\downarrow\rangle\}$. For example, $\hat{H}|\uparrow\downarrow\rangle = ( -J - h_1 + h_2 )|\uparrow\downarrow\rangle$. The eigenstates are therefore product states, and any initial product state in this basis will remain a product state, indicating localization. The transverse field term, $\hat{H}_{\text{pert}} = g(\hat{\sigma}_1^x + \hat{\sigma}_2^x)$, introduces off-diagonal terms in this basis. For example, $\hat{\sigma}_1^x|\uparrow\downarrow\rangle = |\downarrow\downarrow\rangle$. This term mixes the localized product states. If the strength of the perturbation $g$ is large compared to the energy differences between the localized states (e.g., $|(J+h_1+h_2) - (-J-h_1+h_2)| = |2J+2h_1|$), it can induce resonances and hybridize the eigenstates across the Hilbert space, leading to delocalization. This competition between disorder (energy level mismatch) and interactions/perturbations (mixing) is at the heart of the MBL transition.
-
-**Problem 2:** A driven system has a local energy scale $J$ and is driven at frequency $\omega$. A process that heats the system requires absorbing one quantum of energy $\hbar\omega$. If this must be accomplished by $n$ local events, each of order $J$, argue why the process rate might scale as $(J/\hbar\omega)^n$. For $\hbar\omega \gg J$, this implies $n$ must be large. Why does this lead to an exponential suppression of heating?
-
-**Solution 2:** From time-dependent perturbation theory, the amplitude for an $n$-th order process scales roughly as $(V/\Delta E)^n$, where $V$ is the characteristic strength of the perturbation and $\Delta E$ is the characteristic energy denominator. In this scenario, local operators in the Hamiltonian have energy scale $J$, so we can identify $V \sim J$. The drive introduces an energy scale $\hbar\omega$, so we can identify $\Delta E \sim \hbar\omega$. For the system to absorb one quantum of energy $\hbar\omega$ through $n$ local processes of scale $J$, energy conservation suggests that roughly $nJ \approx \hbar\omega$, which implies $n \approx \hbar\omega/J$. The rate of the process is proportional to the amplitude squared, so the rate $\Gamma$ scales as $|(J/\hbar\omega)^n|^2 = (J/\hbar\omega)^{2n}$. Substituting $n \approx \hbar\omega/J$, we get:
-
-$$\Gamma \propto \left(\frac{J}{\hbar\omega}\right)^{2\hbar\omega/J} = \exp\left[\frac{2\hbar\omega}{J}\ln\left(\frac{J}{\hbar\omega}\right)\right] = \exp\left[-\frac{2\hbar\omega}{J}\ln\left(\frac{\hbar\omega}{J}\right)\right]$$
-
-This argument, while heuristic, captures the essential physics: because $\hbar\omega/J \gg 1$, the rate is exponentially suppressed with the ratio of the drive frequency to the local energy scale. This is the core principle behind Floquet prethermalization.[[31]](https://doi.org/10.1007/s00220-017-2937-5) [[34]](https://doi.org/10.1103/RevModPhys.91.021001)
-
 ## Chapter 4: Advanced Topics: Open Systems and Correlated Matter
 
 Having explored the mechanisms that stabilize DTCs in idealized closed systems, we now turn to more realistic and complex scenarios. This chapter investigates the fate of time-crystalline order when a system is coupled to an external environment, introducing dissipation and noise. We will see that while uncontrolled coupling is destructive, engineered dissipation can itself become a tool for stabilization. Furthermore, we will apply the concepts of Floquet engineering to one of the most important paradigms in condensed matter physics: the Fermi-Hubbard model, a canonical model for strongly correlated electrons.
@@ -237,47 +187,6 @@ where $J_0$ is the zeroth-order Bessel function of the first kind and $A$ is a d
 
 When the driving is near-resonant with the interaction energy, i.e., $\hbar\omega \approx U$, more complex phenomena can emerge. The drive can facilitate processes where a fermion hops onto an already occupied site, creating a doubly-occupied site (a "doublon") by absorbing energy from the field. This can lead to effective interactions such as density-assisted hopping. Such Floquet engineering in correlated models has been theoretically proposed as a route to realizing exotic phases, including light-induced superconductivity and effective `t-J` models relevant to cuprates.[[55]](https://doi.org/10.1038/ncomms15173) [[56]](https://doi.org/10.1038/nature13915) [[57]](https://doi.org/10.1038/s41467-017-00868-6) [[58]](https://doi.org/10.1038/ncomms8067)
 
-### 4.5 Calculation Questions & Solutions
-
-**Problem 1:** A single qubit is described by the Hamiltonian $\hat{H} = \frac{\hbar\omega_0}{2}\hat{\sigma}_z$. It is coupled to a zero-temperature bath via the jump operator $\hat{L} = \sqrt{\gamma}\hat{\sigma}_-$, where $\hat{\sigma}_- = (|\downarrow\rangle\langle\uparrow|)$ is the lowering operator. Write the Lindblad master equation and solve for the steady state $\hat{\rho}_{ss}$.
-
-**Solution 1:** The Lindblad master equation is $d\hat{\rho}/dt = -\frac{i}{\hbar}[\hat{H}, \hat{\rho}] + \mathcal{D}(\hat{\rho})$.
-The dissipator is:
-
-$$\mathcal{D}(\hat{\rho}) = \gamma\left(\hat{\sigma}_-\hat{\rho}\hat{\sigma}_+ - \frac{1}{2}\{\hat{\sigma}_+\hat{\sigma}_-, \hat{\rho}\}\right)$$
-
-where $\hat{\sigma}_+ = \hat{\sigma}_-^\dagger$. In the steady state, $d\hat{\rho}_{ss}/dt = 0$. Let's write the density matrix as $\hat{\rho} = \begin{pmatrix} \rho_{\uparrow\uparrow} & \rho_{\uparrow\downarrow} \\ \rho_{\downarrow\uparrow} & \rho_{\downarrow\downarrow} \end{pmatrix}$.
-The equation for the population of the excited state, $\rho_{\uparrow\uparrow}$, is:
-
-$$\frac{d\rho_{\uparrow\uparrow}}{dt} = \gamma \langle\uparrow|(\hat{\sigma}_-\hat{\rho}\hat{\sigma}_+ - \frac{1}{2}\{\hat{\sigma}_+\hat{\sigma}_-, \hat{\rho}\})|\uparrow\rangle = \gamma(0 - \frac{1}{2}\langle\uparrow|\hat{\sigma}_+\hat{\sigma}_-\hat{\rho} + \hat{\rho}\hat{\sigma}_+\hat{\sigma}_-|\uparrow\rangle) = -\gamma\rho_{\uparrow\uparrow}$$
-
-In the steady state, $\frac{d\rho_{\uparrow\uparrow}}{dt} = 0$, which implies $\rho_{\uparrow\uparrow} = 0$. Since $\text{Tr}(\hat{\rho})=1$, we must have $\rho_{\downarrow\downarrow} = 1$. The off-diagonal elements also decay to zero. Thus, the steady state is the ground state:
-
-$$\hat{\rho}_{ss} = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix} = |\downarrow\rangle\langle\downarrow|$$
-
-This makes physical sense, as the zero-temperature bath only allows for decay processes, eventually cooling the system to its ground state.
-
-**Problem 2:** For the 1D Hubbard model, a time-periodic electric field $E(t) = E_0 \cos(\omega t)$ is applied along the lattice. Use the Peierls substitution to find the time-dependent hopping $t_{\text{hop}}(t)$. Calculate the zeroth-order Floquet-Magnus Hamiltonian $\hat{H}_F^{(0)}$.
-
-**Solution 2:** The electric field is related to the vector potential by $E(t) = -\partial_t A(t)$, so $A(t) = -(E_0/\omega)\sin(\omega t)$. The Peierls substitution modifies the hopping term by introducing a phase factor: $\hat{c}_{j\sigma}^\dagger \hat{c}_{j+1,\sigma} \to e^{ieaA(t)/\hbar} \hat{c}_{j\sigma}^\dagger \hat{c}_{j+1,\sigma}$, where $a$ is the lattice spacing.
-The time-dependent hopping is therefore:
-
-$$t_{\text{hop}}(t) = t_{\text{hop}} \exp\left[-\frac{ieaE_0}{\hbar\omega}\sin(\omega t)\right]$$
-
-The zeroth-order FM Hamiltonian is the time-average of $\hat{H}(t)$:
-
-$$\hat{H}_F^{(0)} = \frac{1}{T}\int_0^T \hat{H}(t)dt$$
-
-The interaction term is time-independent, so it remains $U \sum_i \hat{n}_{i\uparrow} \hat{n}_{i\downarrow}$. The hopping term becomes:
-
-$$-t_{\text{eff}} \sum_{\langle i,j \rangle, \sigma} (\hat{c}_{i\sigma}^\dagger \hat{c}_{j\sigma} + \text{h.c.})$$
-
-where $t_{\text{eff}} = \frac{t_{\text{hop}}}{T}\int_0^T \exp\left[-\frac{ieaE_0}{\hbar\omega}\sin(\omega t)\right] dt$. This integral is a definition of the zeroth-order Bessel function of the first kind, $J_0(z) = \frac{1}{2\pi}\int_0^{2\pi} e^{iz\sin\theta}d\theta$. With the substitution $\theta = \omega t$, we get:
-
-$$t_{\text{eff}} = t_{\text{hop}} J_0\left(\frac{eaE_0}{\hbar\omega}\right)$$
-
-Thus, the effective Hamiltonian is a Hubbard model with a renormalized hopping parameter, consistent with the result from lattice shaking.[[53]](https://doi.org/10.1103/PhysRevLett.116.125301)
-
 ## Chapter 5: Applications: Floquet-Enhanced Quantum Sensing
 
 The unique properties of discrete time crystals—robust, collective, non-equilibrium oscillations and long-range spatiotemporal order—are not merely of fundamental interest. This final chapter explores a frontier application where these characteristics can be harnessed for quantum technology: quantum sensing. We will demonstrate how DTCs can be employed as highly sensitive probes for time-varying fields, potentially circumventing fundamental limitations that apply to other quantum systems and achieving precision beyond standard classical limits.
@@ -313,38 +222,6 @@ A concrete protocol for using a DTC as a sensor for a weak AC field, $V(t) = h \
 The key step is to tune the drive period $T$ to be resonant with the external signal. For a period-doubling DTC, the optimal condition is when half the drive frequency matches the signal frequency, i.e., $\omega/2 = \pi/T \approx \omega_h$.[[60]](https://doi.org/10.1038/s41586-020-2823-7) Under this condition, the DTC's collective oscillations phase-lock to the external field. The signal $h$ now coherently drives transitions between the DTC's macroscopic "cat" eigenstates.
 
 The long-range spatiotemporal order and many-body correlations inherent to the DTC phase ensure that this response is collective and robust. The result is a QFI for the estimation of the field amplitude $h$ that grows quadratically with interrogation time $t$ over the exponentially long lifetime of the DTC phase. This leads to a sensitivity that can surpass the SQL and approach the Heisenberg limit, demonstrating a clear quantum advantage.[[60]](https://doi.org/10.1038/s41586-020-2823-7) [[62]](https://doi.org/10.1103/PhysRevResearch.2.033480) [[63]](https://doi.org/10.1103/PhysRevX.10.011043) The breaking of discrete time-translation symmetry is therefore not just a curiosity but a crucial ingredient for boosting the sensor's performance.
-
-### 5.5 Calculation Questions & Solutions
-
-**Problem 1:** A single spin-1/2 particle is in a state $|\psi(\theta)\rangle = \cos(\theta/2)|\uparrow\rangle + \sin(\theta/2)|\downarrow\rangle$. Calculate the QFI, $F_Q(\theta) = 4(\langle\partial_\theta\psi|\partial_\theta\psi\rangle - |\langle\psi|\partial_\theta\psi\rangle|^2)$, for the estimation of the angle $\theta$.
-
-**Solution 1:** First, we calculate the derivative of the state with respect to $\theta$:
-
-$$|\partial_\theta\psi\rangle = \frac{1}{2}(-\sin(\theta/2)|\uparrow\rangle + \cos(\theta/2)|\downarrow\rangle)$$
-
-Next, we calculate the two terms required for the QFI formula.
-The first term is the norm squared of the derivative vector:
-
-$$\langle\partial_\theta\psi|\partial_\theta\psi\rangle = \left(\frac{1}{2}\right)^2 (\sin^2(\theta/2) + \cos^2(\theta/2)) = \frac{1}{4}$$
-
-The second term is the squared magnitude of the overlap between the state and its derivative:
-
-$$\langle\psi|\partial_\theta\psi\rangle = \frac{1}{2}(\cos(\theta/2)(-\sin(\theta/2)) + \sin(\theta/2)(\cos(\theta/2))) = 0$$
-
-Therefore, $|\langle\psi|\partial_\theta\psi\rangle|^2 = 0$.
-Plugging these into the formula for the QFI:
-
-$$F_Q(\theta) = 4\left(\frac{1}{4} - 0\right) = 1$$
-
-The QFI is constant and equal to 1, which is the maximum possible value for a single qubit estimating a single parameter.
-
-**Problem 2:** Consider a two-level system with a quasi-energy gap $\Delta\epsilon(g)$ that depends on a parameter $g$. The gap closes at a critical point $g_c$, such that $\Delta\epsilon(g) \approx C|g-g_c|^\alpha$ near the critical point for some constants $C, \alpha > 0$. Argue why the QFI for estimating $g$ is expected to diverge at $g_c$.
-
-**Solution 2:** The Quantum Fisher Information for a pure state $|\psi_0(g)\rangle$ (e.g., a Floquet eigenstate) can be expressed in terms of the other eigenstates $|\psi_n(g)\rangle$ and energy gaps $\Delta E_n = E_n - E_0$ as:
-
-$$F_Q(g) = 4 \sum_{n\neq 0} \frac{|\langle\psi_n(g)|\partial_g \hat{H}(g)|\psi_0(g)\rangle|^2}{(\Delta E_n(g))^2}$$
-
-In a Floquet system, the energy eigenvalues $E_n$ are replaced by the quasi-energies $\epsilon_n$. The key feature is the presence of the energy gap squared, $(\Delta E_n)^2$, in the denominator. As the system approaches the critical point $g \to g_c$, the quasi-energy gap between the ground state and the first excited state vanishes, $\Delta\epsilon_1(g) \to 0$. Assuming the matrix element in the numerator, $\langle\psi_1(g_c)|\partial_g \hat{H}(g_c)|\psi_0(g_c)\rangle$, is non-zero, the corresponding term in the sum for the QFI will diverge. Specifically, it will scale as $1/(\Delta\epsilon_1(g))^2 \propto 1/|g-g_c|^{2\alpha}$. This divergence in the QFI at the critical point signifies an extreme sensitivity of the system's state to infinitesimal changes in the parameter $g$, which is the basis for criticality-enhanced quantum sensing.
 
 ## Chapter 6: Future Directions and Outlook
 
