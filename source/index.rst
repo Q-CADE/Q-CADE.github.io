@@ -26,22 +26,6 @@ At the heart of our work is **Quantum Computation**, where we use quantum princi
 
 .. toctree::
    :maxdepth: 2
-   :caption: Time Crystals:
-   :hidden:
-   :glob:
-
-   Time Crystals/*
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Floquet Engineering:
-   :hidden:
-   :glob:
-
-   Floquet Engineering/*
-
-.. toctree::
-   :maxdepth: 2
    :caption: Work:
    :glob:
 
