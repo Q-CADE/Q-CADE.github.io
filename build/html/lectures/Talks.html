@@ -3,12 +3,12 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Floquet Engineering of Nonequilibrium Phases: A Study of Discrete Time Crystals" href="../Floquet%20Engineering/Floquet%20engineering%20of%20Discrete%20Time%20crystals.html" /><link rel="prev" title="How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?" href="How%20do%20discrete%20time%20crystals%20%28DTCs%29%20resist%20thermalization%20and%20maintain%20memory%20of%20their%20initial%20state.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Material for Invited Lectures" href="other.html" /><link rel="prev" title="PHYS 710: Quantum Machine Learning for Sciences" href="Phys710.html" />
         <link rel="prefetch" href="../_static/Q-CADE_logo-light.png" as="image" />
         <link rel="prefetch" href="../_static/Q-CADE_logo-dark.png" as="image" />
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.07.19 -->
-        <title>How do you do metrology with DTCs ? - Q-CADE Lab</title>
+        <title>Slides from talks and lectures - Q-CADE Lab</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=25af2a20" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
@@ -203,14 +203,21 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Time Crystals:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="How%20do%20discrete%20time%20crystals%20%28DTCs%29%20resist%20thermalization%20and%20maintain%20memory%20of%20their%20initial%20state.html">How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">How do you do metrology with DTCs ?</a></li>
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Floquet Engineering:</span></p>
+<p class="caption" role="heading"><span class="caption-text">People:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../Floquet%20Engineering/Floquet%20engineering%20of%20Discrete%20Time%20crystals.html">Floquet Engineering of Nonequilibrium Phases: A Study of Discrete Time Crystals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../people/people.html">Researchers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../people/people.html#m-s">M.S.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../people/people.html#undergraduate">Undergraduate</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Lectures and Talks:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Phys437.html"><strong>PHYS 437</strong>: Quantum Computing for Scientists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Phys710.html"><strong>PHYS 710</strong>: Quantum Machine Learning for Sciences</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Slides from talks and lectures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Material for Invited Lectures</a></li>
 </ul>
 
 </div>
@@ -231,7 +238,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/Time Crystals/How do you do metrology with DTCs.md.txt" title="View this page">
+  <a class="muted-link" href="../_sources/lectures/Talks.md.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -251,47 +258,21 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="how-do-you-do-metrology-with-dtcs">
-<h1>How do you do metrology with DTCs ?<a class="headerlink" href="#how-do-you-do-metrology-with-dtcs" title="Link to this heading">¶</a></h1>
-<p>Floquet engineering serves as the <strong>primary mechanism and tool for creating, stabilizing, and studying Discrete Time Crystals (DTCs)</strong>, which are emerging as powerful platforms for advanced quantum metrology. These non-equilibrium phases of matter are characterized by their spontaneous breaking of discrete time-translation symmetry, causing their local observables to respond at a subharmonic frequency (e.g., <code class="docutils literal notranslate"><span class="pre">2T</span></code>) to a periodic drive with period <code class="docutils literal notranslate"><span class="pre">T</span></code>.</p>
-<section id="metrology-with-discrete-time-crystals">
-<h2>Metrology with Discrete Time Crystals<a class="headerlink" href="#metrology-with-discrete-time-crystals" title="Link to this heading">¶</a></h2>
-<ol class="arabic simple">
-<li><p><strong>Beating Classical Limits</strong>: Quantum metrology, which utilizes quantum effects like entanglement, can surpass the classical shot-noise limit (SNL) and potentially reach the Heisenberg limit (HL) in precision measurements. DTCs, with their inherent many-body correlations and emergent entangled states (such as GHZ-type states), offer a promising route to achieve quantum-enhanced sensitivity, overcoming the standard quantum limit (SQL).</p></li>
-<li><p><strong>Overcoming Decoherence and Thermalization</strong>: A major challenge in quantum metrology is decoherence, which limits the sensitivity and stability of quantum probes. Floquet engineering addresses this by enabling DTCs to resist heating to an infinite-temperature thermalized state through various mechanisms:</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="slides-from-talks-and-lectures">
+<h1>Slides from talks and lectures<a class="headerlink" href="#slides-from-talks-and-lectures" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>2025<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p><strong>Floquet Bound States (FBS)</strong>: By applying a periodic drive, Floquet engineering can lead to the formation of Floquet Bound States in the quasienergy spectrum. When FBS are formed, they can <strong>eliminate the detrimental effects of dissipative noises</strong>, recovering the ideal <code class="docutils literal notranslate"><span class="pre">t^2</span></code> scaling of the Quantum Fisher Information (QFI) with encoding time, and retrieving the Heisenberg Limit scaling with atom number N.</p></li>
-<li><p><strong>Floquet Prethermalization</strong>: High-frequency driving in Floquet systems can suppress energy absorption exponentially, leading to a long-lived prethermal regime where DTC order can robustly emerge. This extended prethermal lifetime allows for longer coherent interrogation times, which is crucial for enhanced sensing.</p></li>
-<li><p><strong>Floquet Dynamical Symmetry (FDS)</strong>: An unconventional symmetry in periodically driven systems, FDS can protect quantum coherence against dissipation and dephasing, leading to the robust emergence of DTCs and discrete time quasicrystals (DTQCs) in both dissipative and isolated systems, even in the presence of disorder.</p></li>
-<li><p><strong>Spontaneous Symmetry Breaking and Entanglement</strong>: DTCs arise from the spontaneous breaking of discrete time-translation symmetry, which is intrinsically linked to the formation of large-scale entangled states, such as GHZ-type states, with a <code class="docutils literal notranslate"><span class="pre">π</span></code> quasienergy gap in their spectrum. These entangled states serve as a <strong>resource for quantum-enhanced sensing</strong>.</p></li>
-<li><p><strong>Robustness to Imperfections</strong>: DTC sensors can exhibit significant robustness against various types of imperfections, including errors in the driving pulse and disorder in system interactions. Surprisingly, for some DTC sensors, a controlled increase in drive imperfection can even <strong>enhance the quantum Fisher information (QFI)</strong>, leading to improved precision. This contrasts with typical sensors where imperfections degrade performance.</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1IOkJ7gJWS0y2w7I7GSWsKBNFl_QB9RNU0S-cozERAIY/edit?usp=sharing">QTurkey2025 - Kuantum İş Gücüne Nasıl Katılabilirim?</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1OBTqo7tsAVGPycsy5NNSWXNFiE_njJXfjmVhKeH3Llc/edit?usp=sharing">Politika Yapıcılar İçin Sanayide Kuantum Teknolojileri uygulamalarına bir ilk bakış</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1RSaaMYrKrxWrW0Gdqp8hLMmpXljdpoSIv-nVCnukc4c/edit?usp=sharing">KOÇ 140425</a></p></li>
 </ul>
-</li>
-</ol>
 </section>
-<section id="example-ising-model-sensing-magnetic-fields">
-<h2>Example: Ising Model Sensing Magnetic Fields<a class="headerlink" href="#example-ising-model-sensing-magnetic-fields" title="Link to this heading">¶</a></h2>
-<p>Discrete Time Crystals can be realized and utilized for sensing in <strong>spin-chain models</strong>, particularly the <strong>transverse-field Ising model (TFIM)</strong>, which can be extended to include disordered spin-spin couplings.</p>
-<ol class="arabic simple">
-<li><p><strong>System and Drive</strong>:</p>
+<section id="older">
+<h2>Older<a class="headerlink" href="#older" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>The core idea involves a spin system (e.g., an array of qubits or nuclear spins) where the interactions can be described by an Ising-like Hamiltonian. For instance, a nuclear-spin system in diamond can be modeled with a Hamiltonian including spin-spin interactions and a magnetic field splitting term.</p></li>
-<li><p><strong>Floquet engineering is applied by periodically driving the system</strong>. This is often achieved by applying an external time-periodic magnetic field. For example, in spin chains, the transverse-field strength <code class="docutils literal notranslate"><span class="pre">h(t)</span></code> can be made time-periodic through an external magnetic field. The magnetic field can be tailored with a square wave time profile in specific directions (e.g., <code class="docutils literal notranslate"><span class="pre">ŷ</span></code> and <code class="docutils literal notranslate"><span class="pre">ẑ</span></code>) to drive the system.</p></li>
-<li><p>In systems like <strong>nitrogen-vacancy (NV) centers in diamond</strong>, which are dipolar spin systems, microwave radiation is used to control spin orientations, resulting in an effective Hamiltonian in the rotating frame. Applying a magnetic field to NV centers can modulate their spin transitions, allowing them to be viewed as two-level systems responsive to the field.</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1uE_ABjS-MnS9WuaPv9ndWSZGuHF2Lomz/edit?usp=sharing&amp;amp;ouid=105268238974664138484&amp;amp;rtpof=true&amp;amp;sd=true">SDL for Second Quantum Revolution</a></p></li>
 </ul>
-</li>
-<li><p><strong>Sensing Mechanism</strong>:</p>
-<ul class="simple">
-<li><p>The parameter to be sensed, such as an <strong>unknown AC magnetic field</strong>, is incorporated into the system’s Hamiltonian as a time-dependent term. For example, an AC field can be represented as <code class="docutils literal notranslate"><span class="pre">Ĥ_AC(t)</span> <span class="pre">=</span> <span class="pre">h_ac</span> <span class="pre">sin(ω_AC</span> <span class="pre">t</span> <span class="pre">+</span> <span class="pre">θ_AC)</span> <span class="pre">Σ</span> <span class="pre">S_z_i</span></code>.</p></li>
-<li><p><strong>The sensing protocol relies on the characteristic subharmonic response of the DTC</strong>. When the system is subjected to the periodic drive (and the parameter to be sensed), its local observables (e.g., magnetization) exhibit oscillations at a period that is a multiple of the driving period, typically <code class="docutils literal notranslate"><span class="pre">2T</span></code> (period doubling).</p></li>
-<li><p>The <strong>amplitude, phase, or frequency of this subharmonic response is sensitively dependent on the unknown magnetic field</strong>. By precisely measuring these subharmonic oscillations, the value of the magnetic field can be deduced. For instance, in a kicked Ising model, the subharmonic period-doubling response of local magnetization can persist for many time steps and is stable against perturbations to the transverse field, making it a robust signal for sensing.</p></li>
-<li><p><strong>Quantum Fisher Information (QFI)</strong> is a key measure used to quantify the sensor’s performance. For a DTC sensor, the QFI can show a sharp peak near the transition point from the DTC phase to a non-DTC region, indicating extreme sensitivity to the sensed parameter (e.g., exchange coupling) at this critical point.</p></li>
-<li><p>In the case of gradient periodic magnetic field sensing, a many-body probe initialized in a product state can achieve <strong>ultimate precision, with QFI scaling as <code class="docutils literal notranslate"><span class="pre">FQ</span> <span class="pre">∝</span> <span class="pre">n^2</span> <span class="pre">L^4</span></code></strong> (where <code class="docutils literal notranslate"><span class="pre">n</span></code> is the number of Floquet cycles and <code class="docutils literal notranslate"><span class="pre">L</span></code> is the system size), due to resonance dynamics between GHZ-type eigenstates. This superlinear scaling with the number of spins allows the sensor to overcome the SQL.</p></li>
-</ul>
-</li>
-</ol>
-<p>In summary, Floquet engineering provides the means to periodically drive quantum systems, creating the conditions for DTC formation. These DTCs, often realized in Ising-like spin systems, then exhibit a unique subharmonic response. This robust and sensitive response, enhanced by mechanisms like FBS and prethermalization, can be precisely measured to infer external parameters like magnetic fields, enabling quantum metrology with capabilities beyond conventional limits.</p>
-<p><strong>Analogy</strong>: Imagine a precise, self-resetting clock (the Floquet-driven system) that normally ticks once per second. If you place it in a subtle, rhythmic magnetic field (the parameter to be sensed), the clock’s internal gears (the spins in the Ising model) start to spontaneously rearrange themselves such that the clock now ticks <em>once every two seconds</em>, or even at more complex, but stable, subharmonic rhythms. This unexpected, persistent, and highly sensitive subharmonic ticking (the DTC response) acts as an ultra-fine indicator of the magnetic field’s presence and strength, far more precise than simply listening for a change in its normal tick.</p>
 </section>
 </section>
 
@@ -300,23 +281,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../Floquet%20Engineering/Floquet%20engineering%20of%20Discrete%20Time%20crystals.html">
+          <a class="next-page" href="other.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Floquet Engineering of Nonequilibrium Phases: A Study of Discrete Time Crystals</div>
+                <div class="title">Material for Invited Lectures</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="How%20do%20discrete%20time%20crystals%20%28DTCs%29%20resist%20thermalization%20and%20maintain%20memory%20of%20their%20initial%20state.html">
+          <a class="prev-page" href="Phys710.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?</div>
+                <div class="title"><strong>PHYS 710</strong>: Quantum Machine Learning for Sciences</div>
                 
               </div>
             </a>
@@ -350,9 +331,9 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">How do you do metrology with DTCs ?</a><ul>
-<li><a class="reference internal" href="#metrology-with-discrete-time-crystals">Metrology with Discrete Time Crystals</a></li>
-<li><a class="reference internal" href="#example-ising-model-sensing-magnetic-fields">Example: Ising Model Sensing Magnetic Fields</a></li>
+<li><a class="reference internal" href="#">Slides from talks and lectures</a><ul>
+<li><a class="reference internal" href="#id1">2025</a></li>
+<li><a class="reference internal" href="#older">Older</a></li>
 </ul>
 </li>
 </ul>

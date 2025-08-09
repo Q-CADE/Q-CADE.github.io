@@ -3,12 +3,12 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="How do you do metrology with DTCs ?" href="How%20do%20you%20do%20metrology%20with%20DTCs.html" /><link rel="prev" title="Quantum Computation, Applications &amp; Dynamical Entanglement" href="../index.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="PHYS 710: Quantum Machine Learning for Sciences" href="Phys710.html" /><link rel="prev" title="&lt;no title&gt;" href="../people/people.html" />
         <link rel="prefetch" href="../_static/Q-CADE_logo-light.png" as="image" />
         <link rel="prefetch" href="../_static/Q-CADE_logo-dark.png" as="image" />
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.07.19 -->
-        <title>How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ? - Q-CADE Lab</title>
+        <title>PHYS 437: Quantum Computing for Scientists - Q-CADE Lab</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=25af2a20" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
@@ -203,14 +203,10 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Time Crystals:</span></p>
+  <p class="caption" role="heading"><span class="caption-text">Lectures and Talks:</span></p>
 <ul class="current">
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="How%20do%20you%20do%20metrology%20with%20DTCs.html">How do you do metrology with DTCs ?</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Floquet Engineering:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../Floquet%20Engineering/Floquet%20engineering%20of%20Discrete%20Time%20crystals.html">Floquet Engineering of Nonequilibrium Phases: A Study of Discrete Time Crystals</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#"><strong>PHYS 437</strong>: Quantum Computing for Scientists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Phys710.html"><strong>PHYS 710</strong>: Quantum Machine Learning for Sciences</a></li>
 </ul>
 
 </div>
@@ -231,7 +227,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/Time Crystals/How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state.md.txt" title="View this page">
+  <a class="muted-link" href="../_sources/lectures/Phys437.md.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -251,58 +247,31 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="how-do-discrete-time-crystals-dtcs-resist-thermalization-and-maintain-memory-of-their-initial-state">
-<h1>How do discrete time crystals (DTCs) resist thermalization and maintain memory of their initial state ?<a class="headerlink" href="#how-do-discrete-time-crystals-dtcs-resist-thermalization-and-maintain-memory-of-their-initial-state" title="Link to this heading">¶</a></h1>
-<p>Discrete time crystals (DTCs) are fascinating non-equilibrium phases of matter that exhibit <strong>spontaneous breaking of discrete time-translation symmetry</strong>. This means that while they are periodically driven by an external force with period <code class="docutils literal notranslate"><span class="pre">T</span></code>, their local observables respond with a period that is a multiple of the drive period, such as <code class="docutils literal notranslate"><span class="pre">2T</span></code> or <code class="docutils literal notranslate"><span class="pre">nT</span></code> (a subharmonic response).</p>
-<p>The central challenge for any periodically driven quantum system is <strong>thermalization</strong>, where continuous energy absorption from the drive would typically lead the system to an infinite-temperature, featureless state, causing it to lose all memory of its initial configuration. DTCs, however, are <em>not ergodic</em> and <strong>“remember” their initial state</strong> at late times, violating the eigenstate thermalization hypothesis. This resistance to thermalization and memory retention are enabled by several key mechanisms:</p>
+          <section class="tex2jax_ignore mathjax_ignore" id="phys-437-quantum-computing-for-scientists">
+<h1><strong>PHYS 437</strong>: Quantum Computing for Scientists<a class="headerlink" href="#phys-437-quantum-computing-for-scientists" title="Link to this heading">¶</a></h1>
+<p><strong>Target Audience:</strong> M.S. and Ph.D. students in Natural Sciences.</p>
+<p>This course serves as an introduction to the fpractical applications of quantum computing in physics and chemistry.
+It is specifically designed for students who recognize the growing importance of the use of quantum processor units for
+science. Students are expected to be versed in quantum physics, dynamics and quantum information theory.</p>
+<hr class="docutils" />
+<p><strong>Course Code:</strong> 2300437</p>
+<p><strong>Course Title:</strong> Quantum Computing for Scientists</p>
+<p><strong>Course Type:</strong> Elective</p>
+<p><strong>Instructor:</strong> Assoc. Prof. Dr. Barış Malcıoğlu</p>
+<p><strong>Instructional Methods:</strong></p>
 <ul class="simple">
-<li><p><strong>Many-Body Localization (MBL)</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: MBL is characterized by strong disorder that leads to an emergent integrability, preventing the system from heating to thermal equilibrium and causing it to <strong>retain memory of its initial state indefinitely</strong>. In MBL-stabilized DTCs, the time-crystalline order is <strong>present across the full eigenspectrum</strong>, meaning it is robust for generic initial states.</p></li>
-<li><p><strong>Characteristics</strong>: MBL-DTCs are predicted to persist for arbitrarily long times in an ideal isolated system, although experimental implementations will inevitably experience decay due to finite-size effects or environmental decoherence. This mechanism is often observed in low-dimensional systems with sufficiently short-range interactions. Examples include trapped ions and superconducting qubits.</p></li>
+<li><p>Interactive lectures with live coding demonstrations.</p></li>
+<li><p>Hands-on sessions with Jupyter notebooks.</p></li>
+<li><p>Problem-solving sessions.</p></li>
 </ul>
-</li>
-<li><p><strong>Floquet Prethermalization</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: This occurs when a system is driven at very <strong>high frequencies</strong> compared to its local energy scales. The system experiences <strong>exponentially slow heating</strong>, entering a <strong>long-lived quasi-steady (prethermal) state</strong>.</p></li>
-<li><p><strong>Characteristics</strong>: While the lifetime is not infinite, it can be <strong>exponentially long</strong> in the ratio of the driving frequency to the interaction energy scale (<code class="docutils literal notranslate"><span class="pre">τ</span> <span class="pre">~</span> <span class="pre">e^(ωD/J)</span></code>). The existence of a prethermal DTC often depends on the <strong>energy density of the initial state</strong>; it arises if the prethermal state spontaneously breaks an emergent symmetry of the effective Hamiltonian. This type of DTC can exist in higher dimensions or with long-range interactions where MBL might not. Experiments have observed prethermal DTCs in systems like nuclear spins in diamond and trapped ions.</p></li>
-</ul>
-</li>
-<li><p><strong>Dissipative Stabilization / Open Systems</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: Although often associated with noise that destroys order, controlled dissipation and fluctuations (e.g., coupling to a cold bath) can surprisingly <strong>stabilize time crystal dynamics</strong>. For instance, by allowing photons to escape a leaky cavity, excess energy can be extracted, stabilizing the time-crystalline behavior.</p></li>
-<li><p><strong>Characteristics</strong>: In some theoretical models, like the open Dicke model, mean-field solvability can lead to infinitely persistent DTCs. However, real-world experiments on dissipative DTCs often have finite lifetimes due to short-range interactions or atom losses. Rigorous results suggest that ergodicity breaking can be generically stable to noise, and “activated” time crystals can have an exponentially long autocorrelation time at low temperatures.</p></li>
-</ul>
-</li>
-<li><p><strong>Domain-Wall Confinement</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: In clean (disorder-free) spin chains, the confinement of domain walls into “mesonic” bound states can prevent their spreading, thus hindering thermalization. This mechanism can lead to an <strong>extremely long-lived DTC response</strong>, distinct from Floquet prethermalization or MBL.</p></li>
-<li><p><strong>Characteristics</strong>: This approach doesn’t require high driving frequencies or slowly decaying interactions. The lifetime can be exponentially enhanced with increasing interaction range.</p></li>
-</ul>
-</li>
-<li><p><strong>Floquet Dynamical Symmetry (FDS)</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: FDS is an unconventional symmetry in time-periodically driven systems that <strong>protects quantum coherence</strong> between specific symmetry sectors from dissipation and dephasing. This leads to the emergence of DTCs and discrete time quasicrystals (DTQCs).</p></li>
-<li><p><strong>Characteristics</strong>: These time crystals arise solely from FDS and are robust even in dissipative or isolated systems, and in the presence of disorder, as long as the FDS is respected.</p></li>
-</ul>
-</li>
-<li><p><strong>Topological Protection</strong>:</p>
-<ul>
-<li><p><strong>Mechanism</strong>: Some Floquet time crystals, particularly “topological Floquet time crystals,” are stabilized by topological properties like nontrivial gap opening in the quasienergy spectrum.</p></li>
-<li><p><strong>Characteristics</strong>: This mechanism <strong>does not require many-body interactions or disorder</strong> for rigidity and robustness against perturbations.</p></li>
-</ul>
-</li>
-<li><p><strong>Quantum Many-Body Scars</strong>: This is another mechanism for preventing thermalization and inducing time-crystalline behavior, leading to long-lived responses.</p></li>
-</ul>
-<p>In essence, DTCs resist thermalization and retain memory by leveraging quantum phenomena that either strictly prevent energy absorption and randomization (like MBL) or significantly slow down these processes to create long-lived metastable states (like Floquet prethermalization, dissipative stabilization, or domain-wall confinement). They “remember” their initial state because their dynamics are locked into a subharmonic rhythm that preserves aspects of the starting configuration, unlike a thermalized system that loses all such information.</p>
-<p><strong>Analogy:</strong> Imagine a complex musical instrument, like a grand piano. If you hit a key (initial state), the sound eventually fades away (thermalization). A periodically driven system is like continually tapping the keys in a regular rhythm. Without protective mechanisms, the whole piano would eventually just vibrate chaotically, losing any distinct melody.</p>
+<p><strong>Assessment Methods:</strong></p>
 <ul class="simple">
-<li><p><strong>MBL-DTCs</strong> are like a magically constructed piano where certain strings, even when repeatedly tapped, vibrate in a perfect, robust subharmonic rhythm <em>forever</em>, unperturbed by the chaotic vibrations of other parts. They “remember” the initial tap perfectly.</p></li>
-<li><p><strong>Floquet Prethermal DTCs</strong> are like a piano whose strings are super-responsive only to very fast, precise taps. They can maintain a beautiful subharmonic melody for a very, very long time, but eventually, if you tap for too long, the energy from the taps slowly accumulates, and the clear melody will eventually fade. They “remember” for an exponentially long, but finite, time.</p></li>
-<li><p><strong>Dissipative DTCs</strong> are like a piano that is simultaneously being played and having its sound absorbed by a special dampening system. This absorption can precisely counteract the input energy, allowing a clear, sustained subharmonic rhythm to emerge, even for very long durations, as the excess energy is cleanly removed.</p></li>
-<li><p><strong>Domain-Wall Confinement DTCs</strong> are like a piano where individual notes are “stuck” together in small, stable clusters. Even if the whole piano is driven, the sound doesn’t spread freely, and these clusters maintain their distinct, long-lasting subharmonic patterns.</p></li>
+<li><p><strong>Assignments/Midterm (35%):</strong> Regular programming assignments to reinforce concepts and build Qiskit proficiency.</p></li>
+<li><p><strong>Final Project (65%):</strong> A small project involving the implementation and analysis of a quantum algorithm or protocol of the student’s choice.</p></li>
 </ul>
-<p>Each mechanism provides a different way to keep the “melody” of the initial state from dissolving into the “noise” of thermal chaos.</p>
+<p><strong>Prerequisites:</strong>
+A basic familiarity with Python programming, quantum physics, and quantum information theory.</p>
+<p><strong>Contents:</strong> https://github.com/osbama/Phys437</p>
 </section>
 
         </article>
@@ -310,23 +279,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="How%20do%20you%20do%20metrology%20with%20DTCs.html">
+          <a class="next-page" href="Phys710.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">How do you do metrology with DTCs ?</div>
+                <div class="title"><strong>PHYS 710</strong>: Quantum Machine Learning for Sciences</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../index.html">
+          <a class="prev-page" href="../people/people.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Home</div>
+                <div class="title">&lt;no title&gt;</div>
                 
               </div>
             </a>
