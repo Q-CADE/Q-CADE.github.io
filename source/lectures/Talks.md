@@ -1,7 +1,15 @@
 # Slides from talks and lectures
 ## 2025
- * [QTurkey2025 - Kuantum İş Gücüne Nasıl Katılabilirim?](https://docs.google.com/presentation/d/1IOkJ7gJWS0y2w7I7GSWsKBNFl_QB9RNU0S-cozERAIY/edit?usp=sharing)
- * [Politika Yapıcılar İçin Sanayide Kuantum Teknolojileri uygulamalarına bir ilk bakış](https://docs.google.com/presentation/d/1OBTqo7tsAVGPycsy5NNSWXNFiE_njJXfjmVhKeH3Llc/edit?usp=sharing)
- * [KOÇ 140425](https://docs.google.com/presentation/d/1RSaaMYrKrxWrW0Gdqp8hLMmpXljdpoSIv-nVCnukc4c/edit?usp=sharing)
-## Older
- * [SDL for Second Quantum Revolution](https://docs.google.com/presentation/d/1uE_ABjS-MnS9WuaPv9ndWSZGuHF2Lomz/edit?usp=sharing&ouid=105268238974664138484&rtpof=true&sd=true)
+ * [QTurkey2025 - Kuantum İş Gücüne Nasıl Katılabilirim?](https://drive.google.com/file/d/1BxHaUmNBNchpb-PLhUCpwX69qsjQo7xE/view?usp=drive_link)
+ * [Politika Yapıcılar İçin Sanayide Kuantum Teknolojileri uygulamalarına bir ilk bakış](https://drive.google.com/file/d/1k0cHbO5jwPMPLM8UBL3dfGnCPQHI-T7_/view?usp=drive_link)
+ * [KOÇ 140425](https://drive.google.com/file/d/1enOWu0XkXnin5YcSkAjHXIynKWJd1sjT/view?usp=drive_link)
+ * [NanoTR-19 Actionable-Quantum-Digital-Twin-Creation-for-Quantum-Control-in-Self-Driven-Labs](https://drive.google.com/file/d/1QaJKxyy57nElKeBr6rtYrS7Yd02YRpSV/view?usp=drive_link)
+## 2024
+* [SDL for Second Quantum Revolution](https://drive.google.com/file/d/1OrMn_1i4ZCvRNYBXhXtGBdgvHlrQOMAn/view?usp=drive_link)
+* [Quantum Day 2024 Bilkent](https://drive.google.com/file/d/1bjpdoW6x6vIS18UWIVH9Npj-QdFgPKZ2/view?usp=drive_link)
+* [NanoTR-18 Hamiltonian Learning with QPU Enhanced HPCs](https://drive.google.com/file/d/1SSYo_KLU-B2IXTHAOgEtdHVJ9WB9RbsZ/view?usp=drive_link)
+* [Developing a collaborative opensource protocol towards a self driving laboratory](https://drive.google.com/file/d/10VrIYvjCg7t7nwAcgKxU94cahf8RSUsF/view?usp=drive_link)
+## 2023
+* [KUANTUM MAKINE ÖĞRENIMI KULLANARAK TAM EVRENSEL YOĞUNLUK FONKSIYONEL MERDIVENINI TIRMANMAK](https://drive.google.com/file/d/1hb-NkX34D1JGdUb4DfLOluIHEt7GBU8z/view?usp=drive_link)
+
+ 
