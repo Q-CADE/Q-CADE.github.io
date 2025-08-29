@@ -7,9 +7,11 @@ Welcome to **Q-CADE**, the Laboratory for **Q**\ uantum **C**\ omputation, **A**
 
 This website is under construction. You'll see a lot of empty pages. Please make sure to check back often for updates.
 
-[Report an issue with this site](https://github.com/Q-CADE/Q-CADE.github.io/issues)
+.. Tip::
 
-[Last changes](https://github.com/Q-CADE/Q-CADE.github.io/commits/gh-pages) Tip: You can watch the github repisotory to get notified about changes.
+ You can watch the github repisotory to get notified about changes. `Last changes <https://github.com/Q-CADE/Q-CADE.github.io/commits/gh-pages>`_
+
+`Report an issue with this site <https://github.com/Q-CADE/Q-CADE.github.io/issues>`_
 
 Last edited:|today|
 
