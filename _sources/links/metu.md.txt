@@ -6,7 +6,7 @@
 [https://oidb.metu.edu.tr/en/academic-calendar](https://oidb.metu.edu.tr/en/academic-calendar "https://oidb.metu.edu.tr/en/academic-calendar")
 
 ## Double Majors and Minors
-```{admonition} Tip
+```{admonition} Note carefully!
 :class: warning
 Your goal is to minimize number of courses you need to take. University has much more to offer.
 ```
@@ -53,6 +53,12 @@ Do not forget to fill the [\"Genel Dilekçe\"](https://drive.google.com/file/d/1
 **The following pleas are for example purposes only! Please download the
 current plea from from the** [**physics
 webpage**](https://phys.metu.edu.tr/tr/formlar)**!**
+
+```{admonition} Tip
+:class: tip
+These are editable PDFs. Firefox and similar pdf renderers do not render them correctly. Please download and use them with an
+appropriate PDF reader, or open them in chrome based browsers.  
+```
 
 Do not forget to remove any course you have not taken yet from the examples. These are editable PDFs. 
 
