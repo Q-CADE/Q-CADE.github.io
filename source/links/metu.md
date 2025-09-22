@@ -93,7 +93,7 @@ they will consider their case .
 > Dear advisors,\
 > \
 > As the instructors of PHYS 200 (Hande and Sinan), we have managed to
-> pre-register students to the PHYS 200 course. \
+> pre-register students to the PHYS 200 course.\
 > \
 > Once again, please note that PHYS 200 is a must course for \"fresh 2nd
 > year PHYS students\" (successful from 1st year physics courses and on
@@ -123,13 +123,13 @@ they will consider their case .
 > \
 > For special cases (double major/minor, irregular etc.), if the answer
 > is not clear on the FAQ, please direct them to the query form in the
-> course web site (or we can discuss it here in teams). \
+> course web site (or we can discuss it here in teams).\
 > \
 > We would also kindly ask you to check to make sure that fresh 2nd year
 > students do not drop the course for arbitrary, nonessential reasons.
 > They have already been informed about how to resolve section clashes.
 > MATH 260 section conflicts are not real; students can register to any
-> section and follow the course on other sections. \
+> section and follow the course on other sections.\
 > \
 > In the upcoming SPRING semester (mostly for irregular or failed
 > students), we will similarly pre-register eligible students and inform
@@ -187,3 +187,166 @@ you have taken it is considered as the first time you took the course.
 So, if you took a course in 3rd semester, replaced it in 5th semester,
 you **can not** replace it on 7th semester, since you are trying to
 replace a course 4 semesters before, not 2!
+
+## Nice reading
+
+### Emre S.T. (Turkish)
+
+Merhaba Arkadaşlar,
+
+Sizlere fiziğe/bilime olan (olduğunu ümit ettiğim) hevesinizi canlı
+tutmada biraz da olsa yardım edeceğine inandığım kitapların
+listesini
+gönderdim sanıyordum ama geçen gün bazı arkadaşlarınızla görüşürken,
+bu
+listeyi -çoğunuza- göndermemiş olduğum ortaya çıktı. Zararın
+neresinden dönsek kârdır; o yüzden, işte o liste:
+
+Popüler Bilim Kitapları:
+
+Richard Feynman:
+* Eminim Şaka Yapıyorsunuz Bay Feynman!
+* Keşfetme Hazzı
+* Fizik Yasaları Üzerine
+
+
+* Hardy - Bir Matematikçinin Savunması
+* Carl Sagan - Kozmos
+
+Bunları okumadım ama haklarında iyi şeyler duydum:\
+* Marcus Chown - Biraz Kuantum\'dan Zarar Gelmez (kütüphanede
+mevcut)
+* Michael Guillen - Dünyayı Değiştiren Beş Denklem (kütüphanede
+mevcut)
+* Naci Balkan & Ayşe Erol - Çevremizdeki Fizik\
+
+
+Roman:
+* Stanislaw Lem - Gelecekbilim Kongresi
+* Andy Weir - Marslı
+* Jules Verne - Denizler Altında 20000 Fersah & Esrarlı Ada
+(ithaki yayınlarından çıkan, kısaltma olmayan 2 ciltlik tam metinler)
+
+Birkaç tane de film yazayım:\
+* Infinity - Richard Feynman\'ın hayatı\ (http://www.imdb.com/title/tt0116635/)
+* A Beautiful Mind - John Nash\'in hayatı (http://www.imdb.com/title/tt0268978)
+* The Theory of Everything - Stephen Hawking\'in hayatı hakkında
+(bunu\
+\seyretmedim yalnız) (http://www.imdb.com/title/tt2980516)
+* Hawking - http://www.imdb.com/title/tt0395571/ (bunu da
+seyretmedim)
+* Primer - \"Zaman yolculuğu\" üzerine, hayli mühendis yaklaşımı,
+kafa karıştırıcı fakat çok sağlam bir filmdir (http://www.imdb.com/title/tt0390384)\
+
+Biliyorum, otobüste/metroda giderken cep telefonlarınızla başka
+şeyler
+yapmak daha cazip ama mümkün mertebe okuyun arkadaşlar. Hazırlıkta
+okuyan bazı arkadaşlarınız bana \"seneye görecekleri derslere
+çalışmaya
+şimdiden başlamayı düşündüklerini\" söylediklerinde, bunu tavsiye
+etmedim\- bu tabii ki benim şahsi görüşüm ama bence, mümkün mertebe formül
+içeren kitaplardan bu sene uzak durun 8), zira nasıl olsa seneye
+göreceksiniz, şimdiden formüllerde boğulmayın \-- fiziği ders
+olarak
+almaya başladığınızda, ne kadar ilginiz olursa olsun, ders
+psikolojisi
+sizi etkileyecektir (bir konuyu sevseniz de, sevmeseniz de doğal
+olarak
+sizden öğrenmeniz beklenecek), o yüzden bence en iyisi, bu sene
+tadını
+çıkarmaya bakın\... 8) Bu sene hazırlığı atlayıp, halihazırda
+derslere
+başlamış olanlarınız için de söylemek istediğim birkaç şey var: bu
+dönem
+gördüğünüz fizik, lise yıllarınız boyunca gördüğünüz fiziğin
+neredeyse
+birebir aynısı - ikinci dönem elektrik ve manyetizmada durum epey
+değişecek ama derste elinizden gelenin en iyisini yapmaya çalışın
+ki,
+zaten aşina olan konulardan yüksek notlarla geçip, ortalamanız için
+yüksek bir başlangıç yapın. Bir de, ekte gönderdiğim ön koşullar
+\tablosuna bakacak olursanız, FİZ125\'ten kalmanın sizin için ne
+kadar bağlayıcı olacağını göreceksiniz -- kaldığınız takdirde (yaz okulu ihtimalini
+saymazsak) otomatikman bir sene uzatmış oluyorsunuz, bu sebeple bu dersi
+(dersleri) önceliğiniz belleyin. Bir de tavsiye: \"grup çalışması hayat
+kurtarır\".\
+Tek başınıza ne kadar çalışırsanız çalışın, grup çalışmasının\
+öğrenmedeki yeri apayrıdır. 8)\
+
+Türkçe popüler bilim sitelerini takip edin - güncelle bağınız bu
+siteler. Ben pek takip etmiyorum ama sizlerden gelen tavsiyeler şu
+siteler üzerinde yoğunlaşıyor:\
+
+* http://www.fizikist.com/\
+* http://www.kuark.org/\
+* http://www.kozmikanafor.com/\
+* https://bilimkazani.org/\
+
+(kozmikanafor da güzel bir liste hazırlamış:\
+http://www.kozmikanafor.com/guvenilir-turkce-bilim-kaynaklari/ )\
+
+Sıklıkla güncellenen bu ve diğer benzeri siteleri takip etmek için
+RSS
+desteği olanlarda feedreader denilen, yayınlanan yazıları otomatik
+olarak toplayıp, size gazete gibi sunan programlardan
+faydalanabilirsiniz. Feedly (http://feedly.com/) gayet güzel bir
+hizmet
+veren böyle bir site, feedly\'ye doğrudan sitelerin adresini yazın,
+o 
+size büyük ihtimalle ilgili rss bağlantısını bulacaktır 
+(http://www.fizikist.com/rss/ ya da http://www.kozmikanafor.com/)
+--\
+sorun yaşarsanız, benimle de iletişime geçebilirsiniz teknik destek\
+için. İngilizce birkaç popüler kaynak olarak da:\
+
+* http://phys.org/physics-news/\
+* http://physicsworld.com/\
+* https://www.sciencedaily.com/news/matter_energy/physics/\
+
+örneklerini verebilirim.\
+
+Bilimdeki en saygın iki dergi Nature (http://www.nature.com/ -
+fizik dergisi de: http://www.nature.com/nphys/index.html) ve Science
+(http://www.sciencemag.org/) olup, seviyeleri size biraz yüksek
+gelebilir. Physics Today daha popüler bir dil kullanırken, Physical
+Review X (https://journals.aps.org/prx/) diğer dergilerde çıkan
+makaleleri daha anlaşılır olarak yorumlamakta.\
+
+Bir de -buraya kadar okuduysanız, çok teşekkür ediyorum bu arada
+8)- özellikle hazırlıkta okuyan arkadaşlara yukarıda yazıyordum, sonra
+konu değişmiş, şimdi hatırladım yine: formüllere girmeden, vikipedi
+seviyesinde bile olsa, fizikle ve mühendislikle ilgili şeyleri
+araştırın, örneğin:\
+
+* yarı-iletkenlerin çalışma mantığı
+* buzdolabının, radyonun çalışma prensipleri
+* lazer nasıl elde ediliyor
+* MR tekniği (bildiğiniz, hastanelerdeki görüntüleme tekniğinden\
+\bahsediyorum)
+* Euler\'in, Fermat\'ın teorileri
+* Genel görelilik, eğri uzay-zaman
+* Ferroelektrik, piezoelektrik, pyroelektrik malzemeler, nerede kullanıldıkları
+* Termal/Hidro/Rüzgar Elektrik santrallerinde elektriğin nasıl elde edildiği
+* Neden güneş sistemindeki bütün gezegenlerin güneş etrafındaki hareketlerinin aynı düzlemde olduğu ve neden hepsinin güneşin
+etrafında aynı yönde ilerledikleri
+
+Bu konuları derinlemesine, formül seviyesinde öğrenin demiyorum,
+dediğim
+gibi, fizikçi/bilim insanı olmayan bir arkadaşınız size bu
+sorularla 
+geldiğinde ona anlatabilecek seviyede bilseniz şimdilik haydi haydi\
+yeter. Bir de, şunu düşünün: size 6 ay sonra bir anda 1700\'lü
+yıllara
+"ışınlanacağınız\" söylendi, o takdirde neyi yapmayı çalışıp
+öğrenirdiniz
+ki, o zamana gidince bir etki bırakasınız? Ampül yapabilir misiniz?
+Ya
+da fotoğraf makinesi - ses kayıt cihazı, buzdolabı, vs\...\
+
+Her zaman için, her türlü akademik sorununuz / sorunuz için benimle
+iletişime geçebilirsiniz, hepinize bir kez daha başarılar diliyorum!
+
+Selamlar,\
+Emre S.T.
+
+
