@@ -1,5 +1,11 @@
 # **PHYS 437**: Quantum Computing for Scientists
 
+```{admonition} Course open to select students!
+:class: warning
+You have to take a simple quiz to apply for this course. The quiz will be given on the first day of the course.  
+```
+
+
 **Target Audience:** M.S. and Ph.D. students in Natural Sciences.
 
 
