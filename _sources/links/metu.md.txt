@@ -1,5 +1,10 @@
 # Useful info for METU students
-
+```{admonition} Note carefully!
+:class: danger
+For students whom I am the academic advisor of: I do not accept approval requests submitted after 13:30
+on the last day of the registration or add-drop period. My available time slots after 13:30
+is exclusively for correction requests I send.  
+```
 
 
 ## Academic Calendar
@@ -46,6 +51,12 @@ Remember, don\'t overstrain yourself with excessive course work, don\'t
 take the courses you\'ve taken the equivalent of.
 
 Best of luck, and enjoy!
+
+### You need to register
+You need to register at least one course to continue the program. If you are 
+overwhelmed by the number of courses, you might conisder taking a course
+from your main branch in Physics, and later have it moved to your main branch
+using a plea form. This requires consent from the advisor of your main branch.
 
 ### Example pleas to Physics Dept. for Equivalent Courses
 
