@@ -188,6 +188,16 @@ So, if you took a course in 3rd semester, replaced it in 5th semester,
 you **can not** replace it on 7th semester, since you are trying to
 replace a course 4 semesters before, not 2!
 
+## Courses from Technical Vocational School
+```{admonition} Warning!
+:class: warning
+Dear Students,
+
+Physics Department Academic Board has decided on its meeting on 24 September, 2025 that elective courses offered by Technical Vocational School (such as TKPR219, TKPR220, ...etc) can only be taken as Not Included (NI) category and cannot be used  to fulfill your BS degree requirement. The decision is effective immediately starting 2025-2026 current fall semester.
+
+Office of Physics Department Head
+```
+
 ## Nice reading
 
 ### Emre S.T. (Turkish)
