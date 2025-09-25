@@ -1,6 +1,7 @@
 # Useful info for METU students
 
 
+
 ## Academic Calendar
 
 [https://oidb.metu.edu.tr/en/academic-calendar](https://oidb.metu.edu.tr/en/academic-calendar "https://oidb.metu.edu.tr/en/academic-calendar")
@@ -197,6 +198,30 @@ Physics Department Academic Board has decided on its meeting on 24 September, 20
 
 Office of Physics Department Head
 ```
+
+## "A.I." tools
+
+Ethical use of "AI" tools, such as notebookLM and similar is a good idea. 
+However, keep in mind that "A.I." tools can also be used in an unethical fashion. If you need a guide, see for example 
+[Stanford's guidelines](https://uit.stanford.edu/security/responsibleai).  
+```{admonition} Warning!
+:class: warning
+"chat" LLMs such as chatGPT can be dangerously addictive with long lasting mental health and critical thinking degradation 
+consequences (see for example [the Microsoft report on chat AI](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf))
+```
+
+### Some useful A.I. tools:
+- [NotebookLM](https://notebooklm.google.com/)
+- [ResearchRabbit](https://www.researchrabbit.ai/)
+- [Thesify](https://www.thesify.ai/)
+- [Gamma](https://gamma.app/)
+- [Napkin](https://www.napkin.ai/)
+- [Mathpix](https://mathpix.com/)
+- [n8n](https://n8n.io)
+- [windsurf](https://windsurf.com/)
+- [fireflies](https://fireflies.ai/)
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+
 
 ## Nice reading
 
