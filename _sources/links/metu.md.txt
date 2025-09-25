@@ -221,6 +221,7 @@ consequences (see for example [the Microsoft report on chat AI](https://www.micr
 - [windsurf](https://windsurf.com/)
 - [fireflies](https://fireflies.ai/)
 - [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Rodin](https://hyper3d.ai)
 
 
 ## Nice reading
@@ -248,7 +249,8 @@ Richard Feynman:
 * Hardy - Bir Matematikçinin Savunması
 * Carl Sagan - Kozmos
 
-Bunları okumadım ama haklarında iyi şeyler duydum:\
+Bunları okumadım ama haklarında iyi şeyler duydum:
+
 * Marcus Chown - Biraz Kuantum\'dan Zarar Gelmez (kütüphanede
 mevcut)
 * Michael Guillen - Dünyayı Değiştiren Beş Denklem (kütüphanede
@@ -271,15 +273,15 @@ Birkaç tane de film yazayım:\
 * Hawking - http://www.imdb.com/title/tt0395571/ (bunu da
 seyretmedim)
 * Primer - \"Zaman yolculuğu\" üzerine, hayli mühendis yaklaşımı,
-kafa karıştırıcı fakat çok sağlam bir filmdir (http://www.imdb.com/title/tt0390384)\
+kafa karıştırıcı fakat çok sağlam bir filmdir (http://www.imdb.com/title/tt0390384)
 
 Biliyorum, otobüste/metroda giderken cep telefonlarınızla başka
 şeyler
 yapmak daha cazip ama mümkün mertebe okuyun arkadaşlar. Hazırlıkta
-okuyan bazı arkadaşlarınız bana \"seneye görecekleri derslere
+okuyan bazı arkadaşlarınız bana "seneye görecekleri derslere
 çalışmaya
-şimdiden başlamayı düşündüklerini\" söylediklerinde, bunu tavsiye
-etmedim\- bu tabii ki benim şahsi görüşüm ama bence, mümkün mertebe formül
+şimdiden başlamayı düşündüklerini" söylediklerinde, bunu tavsiye
+etmedim- bu tabii ki benim şahsi görüşüm ama bence, mümkün mertebe formül
 içeren kitaplardan bu sene uzak durun 8), zira nasıl olsa seneye
 göreceksiniz, şimdiden formüllerde boğulmayın \-- fiziği ders
 olarak
@@ -289,7 +291,7 @@ sizi etkileyecektir (bir konuyu sevseniz de, sevmeseniz de doğal
 olarak
 sizden öğrenmeniz beklenecek), o yüzden bence en iyisi, bu sene
 tadını
-çıkarmaya bakın\... 8) Bu sene hazırlığı atlayıp, halihazırda
+çıkarmaya bakın... 8) Bu sene hazırlığı atlayıp, halihazırda
 derslere
 başlamış olanlarınız için de söylemek istediğim birkaç şey var: bu
 dönem
@@ -299,59 +301,52 @@ birebir aynısı - ikinci dönem elektrik ve manyetizmada durum epey
 değişecek ama derste elinizden gelenin en iyisini yapmaya çalışın
 ki,
 zaten aşina olan konulardan yüksek notlarla geçip, ortalamanız için
-yüksek bir başlangıç yapın. Bir de, ekte gönderdiğim ön koşullar
-\tablosuna bakacak olursanız, FİZ125\'ten kalmanın sizin için ne
+yüksek bir başlangıç yapın. Bir de, ekte gönderdiğim ön koşullar tablosuna bakacak olursanız, FİZ125\'ten kalmanın sizin için ne
 kadar bağlayıcı olacağını göreceksiniz -- kaldığınız takdirde (yaz okulu ihtimalini
 saymazsak) otomatikman bir sene uzatmış oluyorsunuz, bu sebeple bu dersi
-(dersleri) önceliğiniz belleyin. Bir de tavsiye: \"grup çalışması hayat
-kurtarır\".\
-Tek başınıza ne kadar çalışırsanız çalışın, grup çalışmasının\
-öğrenmedeki yeri apayrıdır. 8)\
+(dersleri) önceliğiniz belleyin. Bir de tavsiye: "grup çalışması hayat
+kurtarır\". Tek başınıza ne kadar çalışırsanız çalışın, grup çalışmasının  öğrenmedeki yeri apayrıdır. 8)
 
 Türkçe popüler bilim sitelerini takip edin - güncelle bağınız bu
 siteler. Ben pek takip etmiyorum ama sizlerden gelen tavsiyeler şu
-siteler üzerinde yoğunlaşıyor:\
+siteler üzerinde yoğunlaşıyor:
 
-* http://www.fizikist.com/\
-* http://www.kuark.org/\
-* http://www.kozmikanafor.com/\
-* https://bilimkazani.org/\
+* http://www.fizikist.com/
+* http://www.kuark.org/
+* http://www.kozmikanafor.com/
+* https://bilimkazani.org/
 
-(kozmikanafor da güzel bir liste hazırlamış:\
-http://www.kozmikanafor.com/guvenilir-turkce-bilim-kaynaklari/ )\
+(kozmikanafor da güzel bir liste hazırlamış: http://www.kozmikanafor.com/guvenilir-turkce-bilim-kaynaklari/ )
+
 
 Sıklıkla güncellenen bu ve diğer benzeri siteleri takip etmek için
-RSS
-desteği olanlarda feedreader denilen, yayınlanan yazıları otomatik
+RSS  desteği olanlarda feedreader denilen, yayınlanan yazıları otomatik
 olarak toplayıp, size gazete gibi sunan programlardan
 faydalanabilirsiniz. Feedly (http://feedly.com/) gayet güzel bir
-hizmet
-veren böyle bir site, feedly\'ye doğrudan sitelerin adresini yazın,
-o 
-size büyük ihtimalle ilgili rss bağlantısını bulacaktır 
+hizmet  veren böyle bir site, feedly\'ye doğrudan sitelerin adresini yazın,
+o  size büyük ihtimalle ilgili rss bağlantısını bulacaktır 
 (http://www.fizikist.com/rss/ ya da http://www.kozmikanafor.com/)
---\
-sorun yaşarsanız, benimle de iletişime geçebilirsiniz teknik destek\
-için. İngilizce birkaç popüler kaynak olarak da:\
 
-* http://phys.org/physics-news/\
-* http://physicsworld.com/\
-* https://www.sciencedaily.com/news/matter_energy/physics/\
+sorun yaşarsanız, benimle de iletişime geçebilirsiniz teknik destek için. İngilizce birkaç popüler kaynak olarak da:
 
-örneklerini verebilirim.\
+* http://phys.org/physics-news/
+* http://physicsworld.com/
+* https://www.sciencedaily.com/news/matter_energy/physics/
+
+örneklerini verebilirim.
 
 Bilimdeki en saygın iki dergi Nature (http://www.nature.com/ -
 fizik dergisi de: http://www.nature.com/nphys/index.html) ve Science
 (http://www.sciencemag.org/) olup, seviyeleri size biraz yüksek
 gelebilir. Physics Today daha popüler bir dil kullanırken, Physical
 Review X (https://journals.aps.org/prx/) diğer dergilerde çıkan
-makaleleri daha anlaşılır olarak yorumlamakta.\
+makaleleri daha anlaşılır olarak yorumlamakta.
 
 Bir de -buraya kadar okuduysanız, çok teşekkür ediyorum bu arada
 8)- özellikle hazırlıkta okuyan arkadaşlara yukarıda yazıyordum, sonra
 konu değişmiş, şimdi hatırladım yine: formüllere girmeden, vikipedi
 seviyesinde bile olsa, fizikle ve mühendislikle ilgili şeyleri
-araştırın, örneğin:\
+araştırın, örneğin:
 
 * yarı-iletkenlerin çalışma mantığı
 * buzdolabının, radyonun çalışma prensipleri
@@ -376,7 +371,7 @@ yıllara
 öğrenirdiniz
 ki, o zamana gidince bir etki bırakasınız? Ampül yapabilir misiniz?
 Ya
-da fotoğraf makinesi - ses kayıt cihazı, buzdolabı, vs\...\
+da fotoğraf makinesi - ses kayıt cihazı, buzdolabı, vs ...
 
 Her zaman için, her türlü akademik sorununuz / sorunuz için benimle
 iletişime geçebilirsiniz, hepinize bir kez daha başarılar diliyorum!
