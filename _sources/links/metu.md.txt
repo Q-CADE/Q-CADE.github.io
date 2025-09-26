@@ -5,7 +5,10 @@ For students whom I am the academic advisor of: I do not accept approval request
 on the last day of the registration or add-drop period. My available time slots after 13:30
 is exclusively for correction requests I send.  
 ```
+## Chat with academic rules and regulations
 
+Please use this [notebookLM link](https://notebooklm.google.com/notebook/5c6b191e-8a13-4543-b90d-f92899b7163c) to "chat" 
+with academic rules and regulations governing undergraduate education at METU. 
 
 ## Academic Calendar
 
@@ -157,13 +160,15 @@ they will consider their case .
 PHYS203 is considered equivalent to EE201+EE213 or EE281+EE211
 **together**.
 
-## PHYS 213
+## PHYS 213 / PHYS 202
 
 -   **If you are doing double major/minor in Physics:** It is equivalent
     to PHYS202, and you can take PHYS300 if you have taken PHYS213
 -   **If your major is in Physics**, and maybe doing a double
     major/minor elsewhere**:** You have to take PHYS202, there are no
     alternatives.
+
+Update: If your main branch does not include PHYS 213, you have to take PHYS 202.  
 
 ## MATH 219
 
@@ -180,6 +185,11 @@ added to your Physics curriculum **AND** ENG311 section xx. to be added
 to your registered courses list. Then you need to contact your ENG311
 section teacher and ask to join the section (the section teacher will
 need to sign the document)
+
+## MATH 260
+
+If your main branch does not include MATH 260, you have to take it. There are no equivalent courses. 
+
 
 
 ## Equivalence of Physics courses to courses in your Major program
