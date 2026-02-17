@@ -1,5 +1,14 @@
 # Useful info for METU students
+```{admonition} Note carefully!
+:class: danger
+For students whom I am the academic advisor of: I do not accept approval requests submitted after 13:30
+on the last day of the registration or add-drop period. My available time slots after 13:30
+is exclusively for correction requests I send.  
+```
+## Chat with academic rules and regulations
 
+Please use this [notebookLM link](https://notebooklm.google.com/notebook/5c6b191e-8a13-4543-b90d-f92899b7163c) to "chat" 
+with academic rules and regulations governing undergraduate education at METU. 
 
 ## Academic Calendar
 
@@ -45,6 +54,12 @@ Remember, don\'t overstrain yourself with excessive course work, don\'t
 take the courses you\'ve taken the equivalent of.
 
 Best of luck, and enjoy!
+
+### You need to register
+You need to register at least one course to continue the program. If you are 
+overwhelmed by the number of courses, you might conisder taking a course
+from your main branch in Physics, and later have it moved to your main branch
+using a plea form. This requires consent from the advisor of your main branch.
 
 ### Example pleas to Physics Dept. for Equivalent Courses
 
@@ -145,13 +160,15 @@ they will consider their case .
 PHYS203 is considered equivalent to EE201+EE213 or EE281+EE211
 **together**.
 
-## PHYS 213
+## PHYS 213 / PHYS 202
 
 -   **If you are doing double major/minor in Physics:** It is equivalent
     to PHYS202, and you can take PHYS300 if you have taken PHYS213
 -   **If your major is in Physics**, and maybe doing a double
     major/minor elsewhere**:** You have to take PHYS202, there are no
     alternatives.
+
+Update: If your main branch does not include PHYS 213, you have to take PHYS 202.  
 
 ## MATH 219
 
@@ -168,6 +185,11 @@ added to your Physics curriculum **AND** ENG311 section xx. to be added
 to your registered courses list. Then you need to contact your ENG311
 section teacher and ask to join the section (the section teacher will
 need to sign the document)
+
+## MATH 260
+
+If your main branch does not include MATH 260, you have to take it. There are no equivalent courses. 
+
 
 
 ## Equivalence of Physics courses to courses in your Major program
@@ -187,6 +209,41 @@ you have taken it is considered as the first time you took the course.
 So, if you took a course in 3rd semester, replaced it in 5th semester,
 you **can not** replace it on 7th semester, since you are trying to
 replace a course 4 semesters before, not 2!
+
+## Courses from Technical Vocational School
+```{admonition} Warning!
+:class: warning
+Dear Students,
+
+Physics Department Academic Board has decided on its meeting on 24 September, 2025 that elective courses offered by Technical Vocational School (such as TKPR219, TKPR220, ...etc) can only be taken as Not Included (NI) category and cannot be used  to fulfill your BS degree requirement. The decision is effective immediately starting 2025-2026 current fall semester.
+
+Office of Physics Department Head
+```
+
+## "A.I." tools
+
+Ethical use of "AI" tools, such as notebookLM and similar is a good idea. 
+However, keep in mind that "A.I." tools can also be used in an unethical fashion. If you need a guide, see for example 
+[Stanford's guidelines](https://uit.stanford.edu/security/responsibleai).  
+```{admonition} Warning!
+:class: warning
+"chat" LLMs such as chatGPT can be dangerously addictive with long lasting mental health and critical thinking degradation 
+consequences (see for example [the Microsoft report on chat AI](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf))
+```
+
+### Some useful A.I. tools:
+- [NotebookLM](https://notebooklm.google.com/)
+- [ResearchRabbit](https://www.researchrabbit.ai/)
+- [Thesify](https://www.thesify.ai/)
+- [Gamma](https://gamma.app/)
+- [Napkin](https://www.napkin.ai/)
+- [Mathpix](https://mathpix.com/)
+- [n8n](https://n8n.io)
+- [windsurf](https://windsurf.com/)
+- [fireflies](https://fireflies.ai/)
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Rodin](https://hyper3d.ai)
+
 
 ## Nice reading
 
@@ -213,7 +270,8 @@ Richard Feynman:
 * Hardy - Bir Matematikçinin Savunması
 * Carl Sagan - Kozmos
 
-Bunları okumadım ama haklarında iyi şeyler duydum:\
+Bunları okumadım ama haklarında iyi şeyler duydum:
+
 * Marcus Chown - Biraz Kuantum\'dan Zarar Gelmez (kütüphanede
 mevcut)
 * Michael Guillen - Dünyayı Değiştiren Beş Denklem (kütüphanede
@@ -236,15 +294,15 @@ Birkaç tane de film yazayım:\
 * Hawking - http://www.imdb.com/title/tt0395571/ (bunu da
 seyretmedim)
 * Primer - \"Zaman yolculuğu\" üzerine, hayli mühendis yaklaşımı,
-kafa karıştırıcı fakat çok sağlam bir filmdir (http://www.imdb.com/title/tt0390384)\
+kafa karıştırıcı fakat çok sağlam bir filmdir (http://www.imdb.com/title/tt0390384)
 
 Biliyorum, otobüste/metroda giderken cep telefonlarınızla başka
 şeyler
 yapmak daha cazip ama mümkün mertebe okuyun arkadaşlar. Hazırlıkta
-okuyan bazı arkadaşlarınız bana \"seneye görecekleri derslere
+okuyan bazı arkadaşlarınız bana "seneye görecekleri derslere
 çalışmaya
-şimdiden başlamayı düşündüklerini\" söylediklerinde, bunu tavsiye
-etmedim\- bu tabii ki benim şahsi görüşüm ama bence, mümkün mertebe formül
+şimdiden başlamayı düşündüklerini" söylediklerinde, bunu tavsiye
+etmedim- bu tabii ki benim şahsi görüşüm ama bence, mümkün mertebe formül
 içeren kitaplardan bu sene uzak durun 8), zira nasıl olsa seneye
 göreceksiniz, şimdiden formüllerde boğulmayın \-- fiziği ders
 olarak
@@ -254,7 +312,7 @@ sizi etkileyecektir (bir konuyu sevseniz de, sevmeseniz de doğal
 olarak
 sizden öğrenmeniz beklenecek), o yüzden bence en iyisi, bu sene
 tadını
-çıkarmaya bakın\... 8) Bu sene hazırlığı atlayıp, halihazırda
+çıkarmaya bakın... 8) Bu sene hazırlığı atlayıp, halihazırda
 derslere
 başlamış olanlarınız için de söylemek istediğim birkaç şey var: bu
 dönem
@@ -264,59 +322,52 @@ birebir aynısı - ikinci dönem elektrik ve manyetizmada durum epey
 değişecek ama derste elinizden gelenin en iyisini yapmaya çalışın
 ki,
 zaten aşina olan konulardan yüksek notlarla geçip, ortalamanız için
-yüksek bir başlangıç yapın. Bir de, ekte gönderdiğim ön koşullar
-\tablosuna bakacak olursanız, FİZ125\'ten kalmanın sizin için ne
+yüksek bir başlangıç yapın. Bir de, ekte gönderdiğim ön koşullar tablosuna bakacak olursanız, FİZ125\'ten kalmanın sizin için ne
 kadar bağlayıcı olacağını göreceksiniz -- kaldığınız takdirde (yaz okulu ihtimalini
 saymazsak) otomatikman bir sene uzatmış oluyorsunuz, bu sebeple bu dersi
-(dersleri) önceliğiniz belleyin. Bir de tavsiye: \"grup çalışması hayat
-kurtarır\".\
-Tek başınıza ne kadar çalışırsanız çalışın, grup çalışmasının\
-öğrenmedeki yeri apayrıdır. 8)\
+(dersleri) önceliğiniz belleyin. Bir de tavsiye: "grup çalışması hayat
+kurtarır\". Tek başınıza ne kadar çalışırsanız çalışın, grup çalışmasının  öğrenmedeki yeri apayrıdır. 8)
 
 Türkçe popüler bilim sitelerini takip edin - güncelle bağınız bu
 siteler. Ben pek takip etmiyorum ama sizlerden gelen tavsiyeler şu
-siteler üzerinde yoğunlaşıyor:\
+siteler üzerinde yoğunlaşıyor:
 
-* http://www.fizikist.com/\
-* http://www.kuark.org/\
-* http://www.kozmikanafor.com/\
-* https://bilimkazani.org/\
+* http://www.fizikist.com/
+* http://www.kuark.org/
+* http://www.kozmikanafor.com/
+* https://bilimkazani.org/
 
-(kozmikanafor da güzel bir liste hazırlamış:\
-http://www.kozmikanafor.com/guvenilir-turkce-bilim-kaynaklari/ )\
+(kozmikanafor da güzel bir liste hazırlamış: http://www.kozmikanafor.com/guvenilir-turkce-bilim-kaynaklari/ )
+
 
 Sıklıkla güncellenen bu ve diğer benzeri siteleri takip etmek için
-RSS
-desteği olanlarda feedreader denilen, yayınlanan yazıları otomatik
+RSS  desteği olanlarda feedreader denilen, yayınlanan yazıları otomatik
 olarak toplayıp, size gazete gibi sunan programlardan
 faydalanabilirsiniz. Feedly (http://feedly.com/) gayet güzel bir
-hizmet
-veren böyle bir site, feedly\'ye doğrudan sitelerin adresini yazın,
-o 
-size büyük ihtimalle ilgili rss bağlantısını bulacaktır 
+hizmet  veren böyle bir site, feedly\'ye doğrudan sitelerin adresini yazın,
+o  size büyük ihtimalle ilgili rss bağlantısını bulacaktır 
 (http://www.fizikist.com/rss/ ya da http://www.kozmikanafor.com/)
---\
-sorun yaşarsanız, benimle de iletişime geçebilirsiniz teknik destek\
-için. İngilizce birkaç popüler kaynak olarak da:\
 
-* http://phys.org/physics-news/\
-* http://physicsworld.com/\
-* https://www.sciencedaily.com/news/matter_energy/physics/\
+sorun yaşarsanız, benimle de iletişime geçebilirsiniz teknik destek için. İngilizce birkaç popüler kaynak olarak da:
 
-örneklerini verebilirim.\
+* http://phys.org/physics-news/
+* http://physicsworld.com/
+* https://www.sciencedaily.com/news/matter_energy/physics/
+
+örneklerini verebilirim.
 
 Bilimdeki en saygın iki dergi Nature (http://www.nature.com/ -
 fizik dergisi de: http://www.nature.com/nphys/index.html) ve Science
 (http://www.sciencemag.org/) olup, seviyeleri size biraz yüksek
 gelebilir. Physics Today daha popüler bir dil kullanırken, Physical
 Review X (https://journals.aps.org/prx/) diğer dergilerde çıkan
-makaleleri daha anlaşılır olarak yorumlamakta.\
+makaleleri daha anlaşılır olarak yorumlamakta.
 
 Bir de -buraya kadar okuduysanız, çok teşekkür ediyorum bu arada
 8)- özellikle hazırlıkta okuyan arkadaşlara yukarıda yazıyordum, sonra
 konu değişmiş, şimdi hatırladım yine: formüllere girmeden, vikipedi
 seviyesinde bile olsa, fizikle ve mühendislikle ilgili şeyleri
-araştırın, örneğin:\
+araştırın, örneğin:
 
 * yarı-iletkenlerin çalışma mantığı
 * buzdolabının, radyonun çalışma prensipleri
@@ -341,7 +392,7 @@ yıllara
 öğrenirdiniz
 ki, o zamana gidince bir etki bırakasınız? Ampül yapabilir misiniz?
 Ya
-da fotoğraf makinesi - ses kayıt cihazı, buzdolabı, vs\...\
+da fotoğraf makinesi - ses kayıt cihazı, buzdolabı, vs ...
 
 Her zaman için, her türlü akademik sorununuz / sorunuz için benimle
 iletişime geçebilirsiniz, hepinize bir kez daha başarılar diliyorum!

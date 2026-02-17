@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Q-CADE'
-copyright = '2025, O. Baris Malcioglu'
+copyright = '2026, O. Baris Malcioglu'
 author = 'O. Baris Malcioglu'
 
 # -- General configuration ---------------------------------------------------

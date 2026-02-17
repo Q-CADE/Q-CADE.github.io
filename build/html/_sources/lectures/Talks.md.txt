@@ -1,4 +1,7 @@
 # Slides from talks and lectures
+## 2026
+ * [KBM 608 introduction part 1](https://drive.google.com/file/d/1k4wHSODEmGVbUPiPONDkT6CiZ7rxMz-P/view?usp=drive_link)
+ * [KBM 608 introduction part 2](https://drive.google.com/file/d/1HFWq6HLkynoeb_Wn2_DpU1DC8ADNZ_DB/view?usp=drive_link)
 ## 2025
  * [QTurkey2025 - Kuantum İş Gücüne Nasıl Katılabilirim?](https://drive.google.com/file/d/1BxHaUmNBNchpb-PLhUCpwX69qsjQo7xE/view?usp=drive_link)
  * [Politika Yapıcılar İçin Sanayide Kuantum Teknolojileri uygulamalarına bir ilk bakış](https://drive.google.com/file/d/1k0cHbO5jwPMPLM8UBL3dfGnCPQHI-T7_/view?usp=drive_link)
