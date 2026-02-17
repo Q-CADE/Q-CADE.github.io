@@ -220,6 +220,29 @@ Physics Department Academic Board has decided on its meeting on 24 September, 20
 Office of Physics Department Head
 ```
 
+## 2026 Update to undergraduate regulations
+
+```
+Dear Academic Staff Members,
+
+The Middle East Technical University Rules and Regulations Governing Undergraduate Studies have been updated by Senate Decision No. 2026/1-8, dated January 13, 2026. Within this framework, the following regulations, particularly those concerning students on probation, will enter into force as of the Spring Semester of the 2025–2026 Academic Year:
+
+•    Students on probation are required to first repeat the courses in which they received grades of FF, FD, NA, or U. They may retake courses they have previously passed upon request.
+
+•    Students on probation whose cumulative GPA is below 1.80 are not allowed to take courses they have not previously taken or courses in which they received a W grade.
+
+•    Students on probation whose cumulative GPA is between 1.80 and 1.99 may take up to three courses that they have not previously taken.
+
+Except for the changes stated above, no other changes will be implemented in the rules and regulations governing undergraduate studies for the Spring Semester of the 2025–2026 Academic Year.
+
+I wish you a healthy, productive, and successful spring semester.
+
+Kind regards,
+
+Prof. Dr. Ahmet Yozgatlıgil
+President 
+```
+
 ## "A.I." tools
 
 Ethical use of "AI" tools, such as notebookLM and similar is a good idea. 
